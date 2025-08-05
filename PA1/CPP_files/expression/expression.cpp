@@ -62,14 +62,24 @@ bool is_digital(char &s){
     return int(s) >= int('0') and int(s) <= int('9');
 }
 
+bool check_all_op_behind_digital(int p, int q, std::string & expression) {
+    for (int i = p; i <= q; i++){
+        if (expression[i] == '+' or expression[i] == '-' or expression[i] == ' ') continue;
+
+        
+    }
+}
+
 int eval(int p, int q, std::string & expression){
     if (p > q) assert(0);
 
     auto[new_p, new_q] = remove_empty(p, q, expression);
     p = new_p; q = new_q;
+
+
     if (p == q) {
         if (is_digital(expression[p])) return int(expression[p]) - int('0');
-        std:: cout << "p == q: non-digital" << std::endl << std::endl;
+        std:: cout << "p == q: non-digital : " << expression[p] << " ,position is :" << p << std::endl << std::endl;
         assert(0);
     }
 
@@ -99,7 +109,7 @@ int eval(int p, int q, std::string & expression){
             std::string num_str = "";
             for (int i = p; i <= q; i++){
                 if (!is_digital(expression[i])) {
-                    std::cout << "exist non-digital:" << expression[i] << std::endl << std::endl;
+                    std::cout << "exist non-digital:" << expression[i] << " ,position is " << p << std::endl << std::endl;
                     assert(0);
                 }
                 num_str += expression[i];

@@ -1,2 +1,30 @@
-9/6702( --- parentheses unmatch
++7/)0595 --- parentheses unmatch
+
+- 2910(4 --- parentheses unmatch
+
++118)26 --- parentheses unmatch
+
+4954404 --- result = 4954404
+
+(8(622 --- parentheses unmatch
+
+1)9*4 --- parentheses unmatch
+
+73(6/ --- parentheses unmatch
+
+49)*00*0 --- parentheses unmatch
+
+)73)1)12 --- parentheses unmatch
+
+1468 --- result = 1468
+
+6314986 --- result = 6314986
+
+*(5/9 --- parentheses unmatch
+
+5 73 --- exist non-digital: 
+
+*0-53)52 --- parentheses unmatch
+
+(+6(51+2 --- parentheses unmatch
 

@@ -41,7 +41,9 @@ int main(){
     std::string expression = generate_expression();
     std::cout<< expression << " --- ";
     
-    int result = get_expression_result(expression);
+    std::string a = "+-++- 4 + 6 * 7 -(-8)";
+
+    int result = get_expression_result(a);
     std::cout<< "result = " << result << std::endl << std::endl;
 
     return 0;
