@@ -5,6 +5,8 @@
 #include "expression.h"
 
 
+Expression::Expression(std::string & expression_) : expression(expression_) {}
+
 int get_expression_result(std::string & expression){
     Expression exp(expression);
     return exp.get_result();
@@ -55,40 +57,89 @@ bool Expression::is_digital(char &s){
     return int(s) >= int('0') and int(s) <= int('9');
 }
 
-std::pair<bool, int> Expression::solve_op_behind_digital(int p, int q){
-    int last_op_pos = -1, first_non_op_pos = -1;
-    int sub = 0, l = p;
-    bool tag = false;
+// std::pair<bool, int> Expression::solve_op_behind_digital(int p, int q){
+//     int last_op_pos = -1, first_non_op_pos = -1;
+//     int sub = 0, l = p;
+//     bool tag = false;
+//     int match = 0;
 
-    for (; l <= q; l++){
-        if (expression[l] == '+' or expression[l] == ' ' or expression[l] == '-' or expression[l] == '*' or expression[l] == '/'){
-            last_op_pos = l;
-            if (expression[l] == '-') sub += 1;
-            if (!tag and (expression[i] == '*' or expression[i] == '/')) tag = true;
+//     for (; l <= q; l++){
+//         if ((expression[l] == '+' or expression[l] == ' ' or expression[l] == '-' or expression[l] == '*' or expression[l] == '/') and match == 0){
+//             last_op_pos = l;
+//             if (expression[l] == '-') sub += 1;
+//             if (!tag and (expression[l] == '*' or expression[l] == '/')) tag = true;
+//         }
+//         else {
+//             if (first_non_op_pos == -1) first_non_op_pos = 1;
+//             if(expression[l] == '(') match += 1;
+//             else if (expression[l] == ')') match -= 1;
+//         }
+//     }
+
+    
+    
+//     if (last_op_pos >= first_non_op_pos) return {false, 0};
+//     if (tag) {
+//         // std::cout << "exist * or / behind expression: " << expression[last_op_pos] << " ,position is " << last_op_pos << std::endl << std::endl;
+//         std::cout << expression.substr(p, q-p+1) << std::endl << std::endl;
+//         std::cout << last_op_pos << " " << first_non_op_pos << std::endl << std::endl;
+//         assert(0);
+//     }
+
+//     std::string num_str = expression.substr(first_non_op_pos, q - first_non_op_pos + 1);
+//     if (sub & 1) return {true, std::stoi(num_str)};
+//     else return {true, -std::stoi(num_str)};
+    
+// }
+
+int Expression::solve_op_behind_digital(int p, int q){
+    int l = p, sub = 0;
+
+    for (;l <= q; l++){
+        if (expression[l] == '-') sub += 1;
+        else if (expression[l] == ' ' or expression[l] == '+') continue;
+        else if (expression[l] == '*' or expression[l] == '/'){
+            std::cout << expression.substr(p, q-p+1) << std::endl << std::endl;
+            // std::cout << last_op_pos << " " << first_non_op_pos << std::endl << std::endl;
+            assert(0);
         }
-        else if (first_non_op_pos == -1) first_non_op_pos = l;
+        else break;
     }
 
-    
-    
-    if (last_op_pos <= first_non_op_pos) return {false, 0};
-    if (tag) {
-        std::cout << "exist * or / behind expression: " << expression[last_op_pos] << " ,position is " << last_op_pos << std::endl << std::endl;
-        assert(0);
+    int new_p = l, match = 0;
+    for (; new_p <= q; new_p++){
+        if (expression[new_p] == '(') match += 1;
+        else if (expression[new_p] == ')') match -= 1;
+        else if ((expression[new_p] == '+' or expression[new_p] == '-') and match == 0) break;
     }
-    if (sub & 1) return {true, expression.stoi(first_non_op_pos, q - first_non_op_pos + 1)};
-    else return {true, -expression.stoi(first_non_op_pos, q - first_non_op_pos + 1)};
-    
+
+    // std::cout<< l << "  " << new_p << std::endl << std::endl;
+
+    if (expression[new_p] == '+') {
+        if (sub % 2 == 0)  eval(l, new_p-1) + eval(new_p+1, q);
+        else return -eval(l, new_p-1) + eval(new_p+1, q);
+    }
+    else if (expression[new_p] == '-'){
+        if (sub % 2 == 0)  eval(l, new_p-1) - eval(new_p+1, q);
+        else return -eval(l, new_p-1) - eval(new_p+1, q);
+    }
+    else if (new_p >= q){
+        if (sub % 2 == 0)  eval(l, q);
+        else return -eval(l, q);
+    }
 }
 
 int Expression::eval(int p, int q){
+    // std::cout << "eval: " << p << " " << q << std::endl << std::endl;
+
     if (p > q) assert(0);
 
-    auto [tag, result] = solve_op_behind_digital(p, q);
-    if (tag) return result;
+
 
     auto[new_p, new_q] = remove_empty(p, q);
     p = new_p; q = new_q;
+
+    if (expression[p] == '-' or expression[p] == '+') return solve_op_behind_digital(p, q);
 
     if (p == q) {
         if (is_digital(expression[p])) return int(expression[p]) - int('0');

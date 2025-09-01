@@ -1,0 +1,536 @@
+Raw data at address 0x0: 00 00 04 13 
+After conversion at 0x0: ROM[0..3] = 13 04 00 00  (0x00000413)
+Converted ROM data at address 0x0: 0x13040000
+load success 300736 bytes to rom
+pc: 0
+inst: 413
+
+pc: 4
+inst: 52137
+
+pc: 8
+inst: 10113
+
+pc: c
+inst: 10b7
+
+pc: 10
+inst: 22408093
+
+pc: 14
+inst: 80e7
+
+pc: 18
+inst: fea12823
+
+pc: 1c
+inst: fe812e23
+
+pc: 20
+inst: 1437
+
+pc: 24
+inst: 40840413
+
+pc: 28
+inst: ff014183
+
+pc: 2c
+inst: 3401b3
+
+pc: 30
+inst: 1c183
+
+pc: 34
+inst: ff114203
+
+pc: 38
+inst: 440233
+
+pc: 3c
+inst: 24203
+
+pc: 40
+inst: 4181b3
+
+pc: 44
+inst: ff214203
+
+pc: 48
+inst: 440233
+
+pc: 4c
+inst: 24203
+
+pc: 50
+inst: 4181b3
+
+pc: 54
+inst: ff314203
+
+pc: 58
+inst: 440233
+
+pc: 5c
+inst: 24203
+
+pc: 60
+inst: 4181b3
+
+pc: 64
+inst: 1237
+
+pc: 68
+inst: 40020213
+
+pc: 6c
+inst: 320233
+
+pc: 70
+inst: 24203
+
+pc: 74
+inst: ffc12403
+
+pc: 78
+inst: 420233
+
+pc: 7c
+inst: 420233
+
+pc: 80
+inst: 410233
+
+pc: 84
+inst: a000193
+
+pc: 88
+inst: fe312823
+
+pc: 8c
+inst: 9c00193
+
+pc: 90
+inst: fe312623
+
+pc: 94
+inst: fec22203
+
+pc: 98
+inst: 20067
+
+pc: 9c
+inst: 8067
+
+pc: a0
+inst: ff410113
+
+pc: a4
+inst: 100513
+
+pc: a8
+inst: 112423
+
+pc: ac
+inst: 10b7
+
+pc: b0
+inst: 21808093
+
+pc: b4
+inst: 80e7
+
+pc: b8
+inst: fec10113
+
+pc: bc
+inst: 912423
+
+pc: c0
+inst: 494b7
+
+pc: c4
+inst: 6b048493
+
+pc: c8
+inst: 812623
+
+pc: cc
+inst: 112823
+
+pc: d0
+inst: 496b7
+
+pc: d4
+inst: 69068693
+
+pc: d8
+inst: 48413
+
+pc: dc
+inst: 48713
+
+pc: e0
+inst: fe012823
+
+pc: e4
+inst: 174183
+
+pc: e8
+inst: fe3109a3
+
+pc: ec
+inst: ff012183
+
+pc: f0
+inst: fe812e23
+
+pc: f4
+inst: fe312823
+
+pc: f8
+inst: 3d437
+
+pc: fc
+inst: 60040413
+
+pc: 100
+inst: ff214203
+
+pc: 104
+inst: 420233
+
+pc: 108
+inst: 420233
+
+pc: 10c
+inst: 440233
+
+pc: 110
+inst: 22203
+
+pc: 114
+inst: fe412623
+
+pc: 118
+inst: ff114203
+
+pc: 11c
+inst: 420233
+
+pc: 120
+inst: 420233
+
+pc: 124
+inst: 440233
+
+pc: 128
+inst: 22203
+
+pc: 12c
+inst: fe412423
+
+pc: 130
+inst: ff014203
+
+pc: 134
+inst: 420233
+
+pc: 138
+inst: 420233
+
+pc: 13c
+inst: 440233
+
+pc: 140
+inst: 22203
+
+pc: 144
+inst: fe412223
+
+pc: 148
+inst: fed14183
+
+pc: 14c
+inst: fea14203
+
+pc: 150
+inst: 4181b3
+
+pc: 154
+inst: fe714203
+
+pc: 158
+inst: 4181b3
+
+pc: 15c
+inst: fe312223
+
+pc: 160
+inst: fee14183
+
+pc: 164
+inst: feb14203
+
+pc: 168
+inst: 4181b3
+
+pc: 16c
+inst: fe3102a3
+
+pc: 170
+inst: fef14183
+
+pc: 174
+inst: fe310323
+
+pc: 178
+inst: fe412183
+
+pc: 17c
+inst: 8237
+
+pc: 180
+inst: 20213
+
+pc: 184
+inst: 440433
+
+pc: 188
+inst: ff314203
+
+pc: 18c
+inst: 420233
+
+pc: 190
+inst: 420233
+
+pc: 194
+inst: 440233
+
+pc: 198
+inst: 22203
+
+pc: 19c
+inst: ffc12403
+
+pc: 1a0
+inst: 4181b3
+
+pc: 1a4
+inst: 74503
+
+pc: 1a8
+inst: 350533
+
+pc: 1ac
+inst: 6a603
+
+pc: 1b0
+inst: 270713
+
+pc: 1b4
+inst: 468693
+
+pc: 1b8
+inst: fe312a23
+
+pc: 1bc
+inst: fec12423
+
+pc: 1c0
+inst: 31237
+
+pc: 1c4
+inst: 50020213
+
+pc: 1c8
+inst: feb14183
+
+pc: 1cc
+inst: 4181b3
+
+pc: 1d0
+inst: 1c183
+
+pc: 1d4
+inst: fe3103a3
+
+pc: 1d8
+inst: fea14183
+
+pc: 1dc
+inst: 4181b3
+
+pc: 1e0
+inst: 1c183
+
+pc: 1e4
+inst: fe310323
+
+pc: 1e8
+inst: fe914183
+
+pc: 1ec
+inst: 4181b3
+
+pc: 1f0
+inst: 1c183
+
+pc: 1f4
+inst: fe3102a3
+
+pc: 1f8
+inst: fe814183
+
+pc: 1fc
+inst: 4181b3
+
+pc: 200
+inst: 1c183
+
+pc: 204
+inst: fe310223
+
+pc: 208
+inst: ff412183
+
+pc: 20c
+inst: fe412203
+
+pc: 210
+inst: 450533
+
+pc: 214
+inst: 150513
+
+pc: 218
+inst: fea12823
+
+pc: 21c
+inst: fe812e23
+
+pc: 220
+inst: 1437
+
+pc: 224
+inst: 40840413
+
+pc: 228
+inst: ff014183
+
+pc: 22c
+inst: 3401b3
+
+pc: 230
+inst: 1c183
+
+pc: 234
+inst: ff114203
+
+pc: 238
+inst: 440233
+
+pc: 23c
+inst: 24203
+
+pc: 240
+inst: 4181b3
+
+pc: 244
+inst: ff214203
+
+pc: 248
+inst: 440233
+
+pc: 24c
+inst: 24203
+
+pc: 250
+inst: 4181b3
+
+pc: 254
+inst: ff314203
+
+pc: 258
+inst: 440233
+
+pc: 25c
+inst: 24203
+
+pc: 260
+inst: 4181b3
+
+pc: 264
+inst: 1237
+
+pc: 268
+inst: 40020213
+
+pc: 26c
+inst: 320233
+
+pc: 270
+inst: 24503
+
+pc: 274
+inst: ffc12403
+
+pc: 278
+inst: e12223
+
+pc: 27c
+inst: d12023
+
+pc: 280
+inst: 1800093
+
+pc: 284
+inst: 80e7
+
+pc: 288
+inst: 412703
+
+pc: 28c
+inst: 497b7
+
+pc: 290
+inst: 6c078793
+
+pc: 294
+inst: 12683
+
+pc: 298
+inst: fee12823
+
+pc: 29c
+inst: fef12623
+
+pc: 2a0
+inst: fe812e23
+
+pc: 2a4
+inst: fe912c23
+
+pc: 2a8
+inst: 1437
+
+pc: 2ac
+inst: 30040413
+
+pc: 2b0
+inst: ff014183
+
+pc: 2b4
+inst: 340233
+
+pc: 2b8
+inst: 100193
+
+pc: 2bc
+inst: 320023
+
+pc: 2c0
+inst: fec14183
+
+pc

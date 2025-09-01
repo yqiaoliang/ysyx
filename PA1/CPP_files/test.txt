@@ -1,30 +1,252 @@
-+7/)0595 --- parentheses unmatch
+-7)5+*- --- parentheses unmatch
 
-- 2910(4 --- parentheses unmatch
+0)0+ --- parentheses unmatch
 
-+118)26 --- parentheses unmatch
+21)) --- parentheses unmatch
 
-4954404 --- result = 4954404
++)*06+- --- parentheses unmatch
 
-(8(622 --- parentheses unmatch
+07)+ --- parentheses unmatch
 
-1)9*4 --- parentheses unmatch
+++/-)+3 --- parentheses unmatch
 
-73(6/ --- parentheses unmatch
+1(*1*1+ --- parentheses unmatch
 
-49)*00*0 --- parentheses unmatch
+6/05 --- result = 1
 
-)73)1)12 --- parentheses unmatch
+*+7+++)/ --- parentheses unmatch
 
-1468 --- result = 1468
+//6+9+)) --- parentheses unmatch
 
-6314986 --- result = 6314986
+5()+- --- exist non-digital:( ,position is 0
 
-*(5/9 --- parentheses unmatch
+9-63)-+5 --- parentheses unmatch
 
-5 73 --- exist non-digital: 
+87*---(* --- parentheses unmatch
 
-*0-53)52 --- parentheses unmatch
++6)+- --- parentheses unmatch
 
-(+6(51+2 --- parentheses unmatch
+016)+/ --- parentheses unmatch
+
+)27- --- parentheses unmatch
+
+89+*+--+ --- p == q: non-digital : * ,position is :3
+
+(9)409 --- exist non-digital:( ,position is 0
+
+(+36/0 --- parentheses unmatch
+
++7+*+ --- p == q: non-digital : * ,position is :3
+
+0-0+2 --- result = 2
+
+/*-)+ --- parentheses unmatch
+
++-/6-8 --- +-/6-8
+
+-+6-2 --- result = -8
+
+(8+9-4(( --- parentheses unmatch
+
+-*65+)+* --- parentheses unmatch
+
+-)0-+3 --- parentheses unmatch
+
+1)4-8-+- --- parentheses unmatch
+
+-+5*17)- --- parentheses unmatch
+
+07)+7 --- parentheses unmatch
+
++)6+ --- parentheses unmatch
+
+-)++(+- --- parentheses unmatch
+
+*-5*8278 --- p == q: non-digital : * ,position is :0
+
+++(+/86 --- parentheses unmatch
+
+/526--)- --- parentheses unmatch
+
+)1-)-+ --- parentheses unmatch
+
+0(-/5-5 --- parentheses unmatch
+
+)3)376++ --- parentheses unmatch
+
+/)6/5- --- parentheses unmatch
+
+)4+5+ --- parentheses unmatch
+
+-)7-/0*+ --- parentheses unmatch
+
+-+)7+ --- parentheses unmatch
+
+43-94-7 --- result = -58
+
+-++/+-)6 --- parentheses unmatch
+
+-2()00 --- exist non-digital:( ,position is 1
+
+550+5 --- result = 555
+
+789+76+9 --- result = 874
+
+-5+2-0 --- result = -3
+
+)-4-)7 --- parentheses unmatch
+
++1(7+ --- parentheses unmatch
+
+--)* --- parentheses unmatch
+
+++/- --- ++/-
+
+37(-1 --- parentheses unmatch
+
+*16+)-+ --- parentheses unmatch
+
++1+9) --- parentheses unmatch
+
+097(*+ --- parentheses unmatch
+
+)+-*++ --- parentheses unmatch
+
+4+(957 --- parentheses unmatch
+
+5)++- --- parentheses unmatch
+
+(41-/-) --- p == q: non-digital : / ,position is :4
+
++)*0-) --- parentheses unmatch
+
+4(/91/+ --- parentheses unmatch
+
+++-95 --- result = -95
+
++-)2-89* --- parentheses unmatch
+
++1++-3-( --- parentheses unmatch
+
+-(+)628 --- exist non-digital:( ,position is 1
+
+-+--5 --- result = -5
+
+1)*( --- parentheses unmatch
+
+--)74- --- parentheses unmatch
+
+6+)(9 --- parentheses unmatch
+
+-*)09+5 --- parentheses unmatch
+
+6(+* --- parentheses unmatch
+
+42/260 --- result = 0
+
+2-+))/+ --- parentheses unmatch
+
+(01+-0 --- parentheses unmatch
+
+-03+()) --- parentheses unmatch
+
+70240 --- result = 70240
+
+*-/*+)5 --- parentheses unmatch
+
+)2(7 --- parentheses unmatch
+
+-5+( --- parentheses unmatch
+
+096(6/2 --- parentheses unmatch
+
+*+*7 --- p == q: non-digital : * ,position is :0
+
+225+3+2 --- result = 230
+
+8(+735+5 --- parentheses unmatch
+
+)2+) --- parentheses unmatch
+
+--5--/)+ --- parentheses unmatch
+
+76548)+ --- parentheses unmatch
+
+-+1*0 --- result = 0
+
+2+67 --- result = 69
+
+-7(--9 --- parentheses unmatch
+
+)-628) --- parentheses unmatch
+
++2))4-9 --- parentheses unmatch
+
+-)+--++ --- parentheses unmatch
+
+-/2+5 --- -/2+5
+
+7)-+1-)+ --- parentheses unmatch
+
+3-358 --- result = -355
+
+)-+9-+3 --- parentheses unmatch
+
++5-)+( --- parentheses unmatch
+
+0+)1)8 --- parentheses unmatch
+
+4)+8-- --- parentheses unmatch
+
+7+*9-)) --- parentheses unmatch
+
+-3276 --- result = -3276
+
+))3+*() --- parentheses unmatch
+
+5-8-* --- p == q: non-digital : * ,position is :4
+
+06-59(5 --- parentheses unmatch
+
+)-0+++9 --- parentheses unmatch
+
+6)0- --- parentheses unmatch
+
+3(022*- --- parentheses unmatch
+
+)-*++-04 --- parentheses unmatch
+
++/49-9+8 --- +/49-9+8
+
+-/+-+ --- -/+-+
+
+9+3*1)) --- parentheses unmatch
+
+*-*4+ --- p == q: non-digital : * ,position is :0
+
+-(2* --- parentheses unmatch
+
+*--)/- --- parentheses unmatch
+
+45)27 --- parentheses unmatch
+
+-62(-/8+ --- parentheses unmatch
+
++(36- --- parentheses unmatch
+
+(--+++ --- parentheses unmatch
+
+)-*804 --- parentheses unmatch
+
++/)4(74 --- parentheses unmatch
+
+9(36-0)) --- parentheses unmatch
+
+(-915 --- parentheses unmatch
+
+*)-861 --- parentheses unmatch
+
++/5) --- parentheses unmatch
+
++)-)06 --- parentheses unmatch
 
