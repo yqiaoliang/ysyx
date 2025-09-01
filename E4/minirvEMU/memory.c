@@ -2,12 +2,12 @@
 #include <string.h>
 
 
-void mem_init(Memory * mem){
+void mem_init_my_E4(Memory_my_E4 * mem){
     memset(mem->ram, 0, MEM_SIZE);
     memset(mem->rom, 0, MEM_SIZE);
 }
 
-int load_bin_to_mem(Memory *mem, const char *bin_path) {
+int load_bin_to_mem_my_E4(Memory_my_E4 *mem, const char *bin_path) {
     FILE *bin_file = fopen(bin_path, "rb");
     if (!bin_file) {
         fprintf(stderr, "Failed to open file: %s\n", bin_path);
@@ -45,7 +45,7 @@ int load_bin_to_mem(Memory *mem, const char *bin_path) {
     return (int)read_bytes;
 }
 
-int32_t mem_read(Memory *mem, uint32_t addr, int32_t size) {
+int32_t mem_read_my_E4(Memory_my_E4 *mem, uint32_t addr, int32_t size) {
     // if (addr + size > mem->mem_size) {
     //     fprintf(stderr, "Memory read out of bounds: addr=0x%08x, size=%zu\n", addr, size);
     //     return 0;
@@ -58,7 +58,7 @@ int32_t mem_read(Memory *mem, uint32_t addr, int32_t size) {
     return data;
 }
 
-int32_t mem_write(Memory *mem, uint32_t addr, int32_t size, int32_t data) {
+int32_t mem_write_my_E4(Memory_my_E4 *mem, uint32_t addr, int32_t size, int32_t data) {
     // if (addr + size > mem->mem_size) {
     //     fprintf(stderr, "Memory write out of bounds: addr=0x%08x, size=%zu\n", addr, size);
     //     return -1;
@@ -71,7 +71,7 @@ int32_t mem_write(Memory *mem, uint32_t addr, int32_t size, int32_t data) {
     return 0;
 }
 
-uint32_t get_inst(Memory *mem, uint32_t addr){
+uint32_t get_inst_my_E4(Memory_my_E4 *mem, uint32_t addr) {
     int32_t data = 0;
     for (size_t i = 0; i < 4; i++) {
         data |= mem->ram[addr + i] << ((3-i) * 8);

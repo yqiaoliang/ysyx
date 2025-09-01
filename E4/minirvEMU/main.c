@@ -1,29 +1,46 @@
 #include "riscv_sim.h"
 #include <stdlib.h>
-
+// #include "gui.h"
+// #include <am.h>
+// #include <klib-macros.h>
 
 int main (int argc, char * argv[]){
-    Memory *mem = malloc(sizeof(Memory));
-    CpuState *cpu = malloc(sizeof(CpuState)); 
-    Instruction *inst = malloc(sizeof(Instruction));
+    // ioe_init();
+    printf("test0 \n");
+    printf("argc %d\n", argc);
+    Memory_my_E4 *mem = malloc(sizeof(Memory_my_E4));
+    CpuState_my_E4 *cpu = malloc(sizeof(CpuState_my_E4));
+    Instruction_my_E4 *inst = malloc(sizeof(Instruction_my_E4));
+    Color_my_E4 *color = malloc(sizeof(Color_my_E4));
 
-    cpu_init(cpu);
-    mem_init(mem);
+    printf("argc %d\n", argc);
+
+    printf("test1 \n");
+
+    cpu_init_my_E4(cpu);
+    mem_init_my_E4(mem);
+    printf("test2 \n");
+    color_init_my_E4(color);
+    printf("test3 \n");
 
     char *bin_path = argv[1];
+    printf("test4\n");
     char command[512];
     sprintf(command, 
             "tail -n +2 %s | sed -e 's/.*: //' | tr -d '\\n' | sed -e 's/\\(..\\)/\\1 /g' | xxd -r -p > temp.bin", 
             bin_path);
+    printf("test5\n");
     system(command);    
 
-    int loaded = load_bin_to_mem(mem , "temp.bin");
+    printf("test4\n");
+
+    int loaded = load_bin_to_mem_my_E4(mem , "temp.bin");
     if (loaded < 0) return EXIT_FAILURE;
     printf("load success %d bytes to rom\n", loaded);
 
     for (int i = 0; i < 6000; i++){
         printf("pc: %0x \n", cpu->pc);
-        inst_cycle(cpu, mem, inst);
+        inst_cycle_my_E4(cpu, mem, inst, color);
         printf("inst: %0x \n", inst->raw);
         printf("opcode: %0x \n", inst->opcode);
         printf("rd: %0d \n", inst->rd);
@@ -49,9 +66,13 @@ int main (int argc, char * argv[]){
         printf("\n");
     }
 
+    while (1) {
+        draw(color);
+    }
 
     free(mem);
     free(cpu);
     free(inst);
+    free(color);
     return 0;
 }
