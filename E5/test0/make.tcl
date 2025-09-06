@@ -1,0 +1,1 @@
+make -f /home/yqiaoliang/Desktop/digital/ysyx/ysyx-workbench/npc/Makefile sim

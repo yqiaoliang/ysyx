@@ -1,5 +1,6 @@
 #include "riscv_sim.h"
 #include <stdlib.h>
+#include <string.h>
 // #include "gui.h"
 // #include <am.h>
 // #include <klib-macros.h>
@@ -23,7 +24,8 @@ int main (int argc, char * argv[]){
     color_init_my_E4(color);
     printf("test3 \n");
 
-    char *bin_path = argv[1];
+    // char *bin_path = argv[1];
+    char *bin_path = "../logisim-bin/vga.hex";
     printf("test4\n");
     char command[512];
     sprintf(command, 
@@ -39,12 +41,22 @@ int main (int argc, char * argv[]){
     printf("load success %d bytes to rom\n", loaded);
 
     for (int i = 0; i < 6000; i++){
+        printf("cycle %d \n", i);
         printf("pc: %0x \n", cpu->pc);
         inst_cycle_my_E4(cpu, mem, inst, color);
         printf("inst: %0x \n", inst->raw);
         printf("opcode: %0x \n", inst->opcode);
         printf("rd: %0d \n", inst->rd);
         // printf("\n");
+
+        // if( strcmp(bin_path, "../logisim-bin/vga.hex") == 0 ){
+        //     // for (int i = 0; i < 32*32; i++){
+        //     //     printf("color_buf[%d]: %0x \n", i, color->color_buf[i]);
+        //     // }
+        //     // while (1) {
+        //         draw(color);
+        //     // }
+        // }
     
 
         printf("0 zero: %0x \n", cpu->GPR[0]);
@@ -66,8 +78,17 @@ int main (int argc, char * argv[]){
         printf("\n");
     }
 
-    while (1) {
-        draw(color);
+    printf("minirvEMU finish\n");
+
+    
+
+    if( strcmp(bin_path, "../logisim-bin/vga.hex") == 0 ){
+        for (int i = 0; i < 256 * 256; i++){
+            printf("color_buf[%d]: %0x \n", i, color->color_buf[i]);
+        }
+        while (1) {
+            draw(color);
+        }
     }
 
     free(mem);

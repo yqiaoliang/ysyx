@@ -14,8 +14,9 @@ typedef struct{
 }Memory_my_E4;
 
 typedef struct{
-    uint32_t color_buf[32 * 32];
+    uint32_t color_buf[256 * 256];
     int32_t color_write_index;
+    uint8_t * colorpix;
 }Color_my_E4;
 
 typedef struct{

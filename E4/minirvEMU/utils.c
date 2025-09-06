@@ -9,6 +9,7 @@ void cpu_init_my_E4(CpuState_my_E4 * cpu) {
 void color_init_my_E4(Color_my_E4 *color){
     memset(color->color_buf, 0, sizeof(color->color_buf));
     color->color_write_index = 0;
+    color->colorpix = NULL;
 }
 
 int sign_extend_my_E4(int32_t value, int bits) {

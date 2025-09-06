@@ -1,536 +1,2083 @@
-Raw data at address 0x0: 00 00 04 13 
-After conversion at 0x0: ROM[0..3] = 13 04 00 00  (0x00000413)
-Converted ROM data at address 0x0: 0x13040000
-load success 300736 bytes to rom
-pc: 0
-inst: 413
-
-pc: 4
-inst: 52137
-
-pc: 8
-inst: 10113
-
-pc: c
-inst: 10b7
-
-pc: 10
-inst: 22408093
-
-pc: 14
-inst: 80e7
-
-pc: 18
-inst: fea12823
-
-pc: 1c
-inst: fe812e23
-
-pc: 20
-inst: 1437
-
-pc: 24
-inst: 40840413
-
-pc: 28
-inst: ff014183
-
-pc: 2c
-inst: 3401b3
-
-pc: 30
-inst: 1c183
-
-pc: 34
-inst: ff114203
-
-pc: 38
-inst: 440233
-
-pc: 3c
-inst: 24203
-
-pc: 40
-inst: 4181b3
-
-pc: 44
-inst: ff214203
-
-pc: 48
-inst: 440233
-
-pc: 4c
-inst: 24203
-
-pc: 50
-inst: 4181b3
-
-pc: 54
-inst: ff314203
-
-pc: 58
-inst: 440233
-
-pc: 5c
-inst: 24203
-
-pc: 60
-inst: 4181b3
-
-pc: 64
-inst: 1237
-
-pc: 68
-inst: 40020213
-
-pc: 6c
-inst: 320233
-
-pc: 70
-inst: 24203
-
-pc: 74
-inst: ffc12403
-
-pc: 78
-inst: 420233
-
-pc: 7c
-inst: 420233
-
-pc: 80
-inst: 410233
-
-pc: 84
-inst: a000193
-
-pc: 88
-inst: fe312823
-
-pc: 8c
-inst: 9c00193
-
-pc: 90
-inst: fe312623
-
-pc: 94
-inst: fec22203
-
-pc: 98
-inst: 20067
-
-pc: 9c
-inst: 8067
-
-pc: a0
-inst: ff410113
-
-pc: a4
-inst: 100513
-
-pc: a8
-inst: 112423
-
-pc: ac
-inst: 10b7
-
-pc: b0
-inst: 21808093
-
-pc: b4
-inst: 80e7
-
-pc: b8
-inst: fec10113
-
-pc: bc
-inst: 912423
-
-pc: c0
-inst: 494b7
-
-pc: c4
-inst: 6b048493
-
-pc: c8
-inst: 812623
-
-pc: cc
-inst: 112823
-
-pc: d0
-inst: 496b7
-
-pc: d4
-inst: 69068693
-
-pc: d8
-inst: 48413
-
-pc: dc
-inst: 48713
-
-pc: e0
-inst: fe012823
-
-pc: e4
-inst: 174183
-
-pc: e8
-inst: fe3109a3
-
-pc: ec
-inst: ff012183
-
-pc: f0
-inst: fe812e23
-
-pc: f4
-inst: fe312823
-
-pc: f8
-inst: 3d437
-
-pc: fc
-inst: 60040413
-
-pc: 100
-inst: ff214203
-
-pc: 104
-inst: 420233
-
-pc: 108
-inst: 420233
-
-pc: 10c
-inst: 440233
-
-pc: 110
-inst: 22203
-
-pc: 114
-inst: fe412623
-
-pc: 118
-inst: ff114203
-
-pc: 11c
-inst: 420233
-
-pc: 120
-inst: 420233
-
-pc: 124
-inst: 440233
-
-pc: 128
-inst: 22203
-
-pc: 12c
-inst: fe412423
-
-pc: 130
-inst: ff014203
-
-pc: 134
-inst: 420233
-
-pc: 138
-inst: 420233
-
-pc: 13c
-inst: 440233
-
-pc: 140
-inst: 22203
-
-pc: 144
-inst: fe412223
-
-pc: 148
-inst: fed14183
-
-pc: 14c
-inst: fea14203
-
-pc: 150
-inst: 4181b3
-
-pc: 154
-inst: fe714203
-
-pc: 158
-inst: 4181b3
-
-pc: 15c
-inst: fe312223
-
-pc: 160
-inst: fee14183
-
-pc: 164
-inst: feb14203
-
-pc: 168
-inst: 4181b3
-
-pc: 16c
-inst: fe3102a3
-
-pc: 170
-inst: fef14183
-
-pc: 174
-inst: fe310323
-
-pc: 178
-inst: fe412183
-
-pc: 17c
-inst: 8237
-
-pc: 180
-inst: 20213
-
-pc: 184
-inst: 440433
-
-pc: 188
-inst: ff314203
-
-pc: 18c
-inst: 420233
-
-pc: 190
-inst: 420233
-
-pc: 194
-inst: 440233
-
-pc: 198
-inst: 22203
-
-pc: 19c
-inst: ffc12403
-
-pc: 1a0
-inst: 4181b3
-
-pc: 1a4
-inst: 74503
-
-pc: 1a8
-inst: 350533
-
-pc: 1ac
-inst: 6a603
-
-pc: 1b0
-inst: 270713
-
-pc: 1b4
-inst: 468693
-
-pc: 1b8
-inst: fe312a23
-
-pc: 1bc
-inst: fec12423
-
-pc: 1c0
-inst: 31237
-
-pc: 1c4
-inst: 50020213
-
-pc: 1c8
-inst: feb14183
-
-pc: 1cc
-inst: 4181b3
-
-pc: 1d0
-inst: 1c183
-
-pc: 1d4
-inst: fe3103a3
-
-pc: 1d8
-inst: fea14183
-
-pc: 1dc
-inst: 4181b3
-
-pc: 1e0
-inst: 1c183
-
-pc: 1e4
-inst: fe310323
-
-pc: 1e8
-inst: fe914183
-
-pc: 1ec
-inst: 4181b3
-
-pc: 1f0
-inst: 1c183
-
-pc: 1f4
-inst: fe3102a3
-
-pc: 1f8
-inst: fe814183
-
-pc: 1fc
-inst: 4181b3
-
-pc: 200
-inst: 1c183
-
-pc: 204
-inst: fe310223
-
-pc: 208
-inst: ff412183
-
-pc: 20c
-inst: fe412203
-
-pc: 210
-inst: 450533
-
-pc: 214
-inst: 150513
-
-pc: 218
-inst: fea12823
-
-pc: 21c
-inst: fe812e23
-
-pc: 220
-inst: 1437
-
-pc: 224
-inst: 40840413
-
-pc: 228
-inst: ff014183
-
-pc: 22c
-inst: 3401b3
-
-pc: 230
-inst: 1c183
-
-pc: 234
-inst: ff114203
-
-pc: 238
-inst: 440233
-
-pc: 23c
-inst: 24203
-
-pc: 240
-inst: 4181b3
-
-pc: 244
-inst: ff214203
-
-pc: 248
-inst: 440233
-
-pc: 24c
-inst: 24203
-
-pc: 250
-inst: 4181b3
-
-pc: 254
-inst: ff314203
-
-pc: 258
-inst: 440233
-
-pc: 25c
-inst: 24203
-
-pc: 260
-inst: 4181b3
-
-pc: 264
-inst: 1237
-
-pc: 268
-inst: 40020213
-
-pc: 26c
-inst: 320233
-
-pc: 270
-inst: 24503
-
-pc: 274
-inst: ffc12403
-
-pc: 278
-inst: e12223
-
-pc: 27c
-inst: d12023
-
-pc: 280
-inst: 1800093
-
-pc: 284
-inst: 80e7
-
-pc: 288
-inst: 412703
-
-pc: 28c
-inst: 497b7
-
-pc: 290
-inst: 6c078793
-
-pc: 294
-inst: 12683
-
-pc: 298
-inst: fee12823
-
-pc: 29c
-inst: fef12623
-
-pc: 2a0
-inst: fe812e23
-
-pc: 2a4
-inst: fe912c23
-
-pc: 2a8
-inst: 1437
-
-pc: 2ac
-inst: 30040413
-
-pc: 2b0
-inst: ff014183
-
-pc: 2b4
-inst: 340233
-
-pc: 2b8
-inst: 100193
-
-pc: 2bc
-inst: 320023
-
-pc: 2c0
-inst: fec14183
-
-pc
+# Building minirvEMU-run [native]
+# Building am-archive [native]
+# Building klib-archive [native]
+./build/minirvEMU-native.elf
+inst: 13040000
+PC:4
+inst: 13040000
+Unknown opcode: 0
+inst: 37310900
+PC:8
+inst: 37310900
+Unknown opcode: 0
+inst: 13010100
+PC:c
+inst: 13010100
+Unknown opcode: 0
+inst: b7100000
+PC:10
+inst: b7100000
+Unknown opcode: 0
+inst: 9380c0db
+PC:14
+inst: 9380c0db
+Unknown opcode: 5b
+inst: e7800000
+PC:18
+inst: e7800000
+Unknown opcode: 0
+inst: 232801fe
+PC:1c
+inst: 232801fe
+Unknown opcode: 7e
+inst: 2309a1fe
+PC:20
+inst: 2309a1fe
+Unknown opcode: 7e
+inst: 2324a1fe
+PC:24
+inst: 2324a1fe
+Unknown opcode: 7e
+inst: 34291fe
+PC:28
+inst: 34291fe
+Unknown opcode: 7e
+inst: a30941fe
+PC:2c
+inst: a30941fe
+Unknown opcode: 7e
+inst: 832701ff
+PC:30
+inst: 832701ff
+Unknown opcode: 7f
+inst: b387f700
+PC:34
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:38
+inst: b387f700
+Unknown opcode: 0
+inst: b7b60400
+PC:3c
+inst: b7b60400
+Unknown opcode: 0
+inst: 938686af
+PC:40
+inst: 938686af
+Unknown opcode: 2f
+inst: 1301c1fd
+PC:44
+inst: 1301c1fd
+Unknown opcode: 7d
+inst: b387d700
+PC:48
+inst: b387d700
+Unknown opcode: 0
+inst: 13070010
+PC:4c
+inst: 13070010
+Unknown opcode: 10
+inst: 2324f100
+PC:50
+inst: 2324f100
+Unknown opcode: 0
+inst: 93050100
+PC:54
+inst: 93050100
+Unknown opcode: 0
+inst: 93071000
+PC:58
+inst: 93071000
+Unknown opcode: 0
+inst: 1305b000
+PC:5c
+inst: 1305b000
+Unknown opcode: 0
+inst: 23201102
+PC:60
+inst: 23201102
+Unknown opcode: 2
+inst: 23200100
+PC:64
+inst: 23200100
+Unknown opcode: 0
+inst: 23220100
+PC:68
+inst: 23220100
+Unknown opcode: 0
+inst: 2326e100
+PC:6c
+inst: 2326e100
+Unknown opcode: 0
+inst: 2328e100
+PC:70
+inst: 2328e100
+Unknown opcode: 0
+inst: 230af100
+PC:74
+inst: 230af100
+Unknown opcode: 0
+inst: b7100000
+PC:78
+inst: b7100000
+Unknown opcode: 0
+inst: 938040a8
+PC:7c
+inst: 938040a8
+Unknown opcode: 28
+inst: e7800000
+PC:80
+inst: e7800000
+Unknown opcode: 0
+inst: 83200102
+PC:84
+inst: 83200102
+Unknown opcode: 2
+inst: 13014102
+PC:88
+inst: 13014102
+Unknown opcode: 2
+inst: 67800000
+PC:8c
+inst: 67800000
+Unknown opcode: 0
+inst: 130141ff
+PC:90
+inst: 130141ff
+Unknown opcode: 7f
+inst: 23241100
+PC:94
+inst: 23241100
+Unknown opcode: 0
+inst: b7100000
+PC:98
+inst: b7100000
+Unknown opcode: 0
+inst: 9380c0a7
+PC:9c
+inst: 9380c0a7
+Unknown opcode: 27
+inst: e7800000
+PC:a0
+inst: e7800000
+Unknown opcode: 0
+inst: 13050000
+PC:a4
+inst: 13050000
+Unknown opcode: 0
+inst: 93008001
+PC:a8
+inst: 93008001
+Unknown opcode: 1
+inst: e7800000
+PC:ac
+inst: e7800000
+Unknown opcode: 0
+inst: 83208100
+PC:b0
+inst: 83208100
+Unknown opcode: 0
+inst: 13050000
+PC:b4
+inst: 13050000
+Unknown opcode: 0
+inst: 1301c100
+PC:b8
+inst: 1301c100
+Unknown opcode: 0
+inst: 67800000
+PC:bc
+inst: 67800000
+Unknown opcode: 0
+inst: 83258500
+PC:c0
+inst: 83258500
+Unknown opcode: 0
+inst: 2328b1fe
+PC:c4
+inst: 2328b1fe
+Unknown opcode: 7e
+inst: 232e81fe
+PC:c8
+inst: 232e81fe
+Unknown opcode: 7e
+inst: 37340000
+PC:cc
+inst: 37340000
+Unknown opcode: 0
+inst: 13048480
+PC:d0
+inst: 13048480
+Unknown opcode: 0
+inst: 834101ff
+PC:d4
+inst: 834101ff
+Unknown opcode: 7f
+inst: b3013400
+PC:d8
+inst: b3013400
+Unknown opcode: 0
+inst: 83c10100
+PC:dc
+inst: 83c10100
+Unknown opcode: 0
+inst: 34211ff
+PC:e0
+inst: 34211ff
+Unknown opcode: 7f
+inst: 33024400
+PC:e4
+inst: 33024400
+Unknown opcode: 0
+inst: 3420200
+PC:e8
+inst: 3420200
+Unknown opcode: 0
+inst: b3814100
+PC:ec
+inst: b3814100
+Unknown opcode: 0
+inst: 34221ff
+PC:f0
+inst: 34221ff
+Unknown opcode: 7f
+inst: 33024400
+PC:f4
+inst: 33024400
+Unknown opcode: 0
+inst: 3420200
+PC:f8
+inst: 3420200
+Unknown opcode: 0
+inst: b3814100
+PC:fc
+inst: b3814100
+Unknown opcode: 0
+inst: 34231ff
+PC:100
+inst: 34231ff
+Unknown opcode: 7f
+inst: 33024400
+PC:104
+inst: 33024400
+Unknown opcode: 0
+inst: 3420200
+PC:108
+inst: 3420200
+Unknown opcode: 0
+inst: b3814100
+PC:10c
+inst: b3814100
+Unknown opcode: 0
+inst: 37320000
+PC:110
+inst: 37320000
+Unknown opcode: 0
+inst: 13020280
+PC:114
+inst: 13020280
+Unknown opcode: 0
+inst: 33023200
+PC:118
+inst: 33023200
+Unknown opcode: 0
+inst: 3420200
+PC:11c
+inst: 3420200
+Unknown opcode: 0
+inst: 324c1ff
+PC:120
+inst: 324c1ff
+Unknown opcode: 7f
+inst: 33024200
+PC:124
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:128
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:12c
+inst: 33024100
+Unknown opcode: 0
+inst: b7110000
+PC:130
+inst: b7110000
+Unknown opcode: 0
+inst: 93814186
+PC:134
+inst: 93814186
+Unknown opcode: 6
+inst: 232831fe
+PC:138
+inst: 232831fe
+Unknown opcode: 7e
+inst: 93018014
+PC:13c
+inst: 93018014
+Unknown opcode: 14
+inst: 232631fe
+PC:140
+inst: 232631fe
+Unknown opcode: 7e
+inst: 322c2fe
+PC:144
+inst: 322c2fe
+Unknown opcode: 7e
+inst: 67000200
+PC:148
+inst: 67000200
+Unknown opcode: 0
+inst: 3270501
+PC:14c
+inst: 3270501
+Unknown opcode: 1
+inst: 83260500
+PC:150
+inst: 83260500
+Unknown opcode: 0
+inst: 83274500
+PC:154
+inst: 83274500
+Unknown opcode: 0
+inst: 130181fe
+PC:158
+inst: 130181fe
+Unknown opcode: 7e
+inst: 2324e100
+PC:15c
+inst: 2324e100
+Unknown opcode: 0
+inst: 232a1100
+PC:160
+inst: 232a1100
+Unknown opcode: 0
+inst: 23288100
+PC:164
+inst: 23288100
+Unknown opcode: 0
+inst: 23269100
+PC:168
+inst: 23269100
+Unknown opcode: 0
+inst: 2328d1fe
+PC:16c
+inst: 2328d1fe
+Unknown opcode: 7e
+inst: 2326f1fe
+PC:170
+inst: 2326f1fe
+Unknown opcode: 7e
+inst: 37370100
+PC:174
+inst: 37370100
+Unknown opcode: 0
+inst: 130707a0
+PC:178
+inst: 130707a0
+Unknown opcode: 20
+inst: 232201fe
+PC:17c
+inst: 232201fe
+Unknown opcode: 7e
+inst: 34231ff
+PC:180
+inst: 34231ff
+Unknown opcode: 7f
+inst: a30241fe
+PC:184
+inst: a30241fe
+Unknown opcode: 7e
+inst: 342f1fe
+PC:188
+inst: 342f1fe
+Unknown opcode: 7e
+inst: 230241fe
+PC:18c
+inst: 230241fe
+Unknown opcode: 7e
+inst: 32241fe
+PC:190
+inst: 32241fe
+Unknown opcode: 7e
+inst: 33024700
+PC:194
+inst: 33024700
+Unknown opcode: 0
+inst: 3420200
+PC:198
+inst: 3420200
+Unknown opcode: 0
+inst: a30541fe
+PC:19c
+inst: a30541fe
+Unknown opcode: 7e
+inst: 34221ff
+PC:1a0
+inst: 34221ff
+Unknown opcode: 7f
+inst: a30241fe
+PC:1a4
+inst: a30241fe
+Unknown opcode: 7e
+inst: 342e1fe
+PC:1a8
+inst: 342e1fe
+Unknown opcode: 7e
+inst: 230241fe
+PC:1ac
+inst: 230241fe
+Unknown opcode: 7e
+inst: 32241fe
+PC:1b0
+inst: 32241fe
+Unknown opcode: 7e
+inst: 33024700
+PC:1b4
+inst: 33024700
+Unknown opcode: 0
+inst: 3420200
+PC:1b8
+inst: 3420200
+Unknown opcode: 0
+inst: 230541fe
+PC:1bc
+inst: 230541fe
+Unknown opcode: 7e
+inst: 34211ff
+PC:1c0
+inst: 34211ff
+Unknown opcode: 7f
+inst: a30241fe
+PC:1c4
+inst: a30241fe
+Unknown opcode: 7e
+inst: 342d1fe
+PC:1c8
+inst: 342d1fe
+Unknown opcode: 7e
+inst: 230241fe
+PC:1cc
+inst: 230241fe
+Unknown opcode: 7e
+inst: 32241fe
+PC:1d0
+inst: 32241fe
+Unknown opcode: 7e
+inst: 33024700
+PC:1d4
+inst: 33024700
+Unknown opcode: 0
+inst: 3420200
+PC:1d8
+inst: 3420200
+Unknown opcode: 0
+inst: a30441fe
+PC:1dc
+inst: a30441fe
+Unknown opcode: 7e
+inst: 34201ff
+PC:1e0
+inst: 34201ff
+Unknown opcode: 7f
+inst: a30241fe
+PC:1e4
+inst: a30241fe
+Unknown opcode: 7e
+inst: 342c1fe
+PC:1e8
+inst: 342c1fe
+Unknown opcode: 7e
+inst: 230241fe
+PC:1ec
+inst: 230241fe
+Unknown opcode: 7e
+inst: 32241fe
+PC:1f0
+inst: 32241fe
+Unknown opcode: 7e
+inst: 33024700
+PC:1f4
+inst: 33024700
+Unknown opcode: 0
+inst: 3420200
+PC:1f8
+inst: 3420200
+Unknown opcode: 0
+inst: 230441fe
+PC:1fc
+inst: 230441fe
+Unknown opcode: 7e
+inst: 32781fe
+PC:200
+inst: 32781fe
+Unknown opcode: 7e
+inst: 326c500
+PC:204
+inst: 326c500
+Unknown opcode: 0
+inst: 2328e1fe
+PC:208
+inst: 2328e1fe
+Unknown opcode: 7e
+inst: 232e81fe
+PC:20c
+inst: 232e81fe
+Unknown opcode: 7e
+inst: 37340000
+PC:210
+inst: 37340000
+Unknown opcode: 0
+inst: 13048480
+PC:214
+inst: 13048480
+Unknown opcode: 0
+inst: 834101ff
+PC:218
+inst: 834101ff
+Unknown opcode: 7f
+inst: b3013400
+PC:21c
+inst: b3013400
+Unknown opcode: 0
+inst: 83c10100
+PC:220
+inst: 83c10100
+Unknown opcode: 0
+inst: 34211ff
+PC:224
+inst: 34211ff
+Unknown opcode: 7f
+inst: 33024400
+PC:228
+inst: 33024400
+Unknown opcode: 0
+inst: 3420200
+PC:22c
+inst: 3420200
+Unknown opcode: 0
+inst: b3814100
+PC:230
+inst: b3814100
+Unknown opcode: 0
+inst: 34221ff
+PC:234
+inst: 34221ff
+Unknown opcode: 7f
+inst: 33024400
+PC:238
+inst: 33024400
+Unknown opcode: 0
+inst: 3420200
+PC:23c
+inst: 3420200
+Unknown opcode: 0
+inst: b3814100
+PC:240
+inst: b3814100
+Unknown opcode: 0
+inst: 34231ff
+PC:244
+inst: 34231ff
+Unknown opcode: 7f
+inst: 33024400
+PC:248
+inst: 33024400
+Unknown opcode: 0
+inst: 3420200
+PC:24c
+inst: 3420200
+Unknown opcode: 0
+inst: b3814100
+PC:250
+inst: b3814100
+Unknown opcode: 0
+inst: 37320000
+PC:254
+inst: 37320000
+Unknown opcode: 0
+inst: 13020280
+PC:258
+inst: 13020280
+Unknown opcode: 0
+inst: 33023200
+PC:25c
+inst: 33023200
+Unknown opcode: 0
+inst: 3420200
+PC:260
+inst: 3420200
+Unknown opcode: 0
+inst: 324c1ff
+PC:264
+inst: 324c1ff
+Unknown opcode: 7f
+inst: 33024200
+PC:268
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:26c
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:270
+inst: 33024100
+Unknown opcode: 0
+inst: 93018066
+PC:274
+inst: 93018066
+Unknown opcode: 66
+inst: 232831fe
+PC:278
+inst: 232831fe
+Unknown opcode: 7e
+inst: 93018028
+PC:27c
+inst: 93018028
+Unknown opcode: 28
+inst: 232631fe
+PC:280
+inst: 232631fe
+Unknown opcode: 7e
+inst: 322c2fe
+PC:284
+inst: 322c2fe
+Unknown opcode: 7e
+inst: 67000200
+PC:288
+inst: 67000200
+Unknown opcode: 0
+inst: 3387c600
+PC:28c
+inst: 3387c600
+Unknown opcode: 0
+inst: 13050010
+PC:290
+inst: 13050010
+Unknown opcode: 10
+inst: 232e81fe
+PC:294
+inst: 232e81fe
+Unknown opcode: 7e
+inst: 232c91fe
+PC:298
+inst: 232c91fe
+Unknown opcode: 7e
+inst: 2328e1fe
+PC:29c
+inst: 2328e1fe
+Unknown opcode: 7e
+inst: 13040500
+PC:2a0
+inst: 13040500
+Unknown opcode: 0
+inst: 832401ff
+PC:2a4
+inst: 832401ff
+Unknown opcode: 7f
+inst: 232481fe
+PC:2a8
+inst: 232481fe
+Unknown opcode: 7e
+inst: 8341b1fe
+PC:2ac
+inst: 8341b1fe
+Unknown opcode: 7e
+inst: b3813100
+PC:2b0
+inst: b3813100
+Unknown opcode: 0
+inst: 232431fe
+PC:2b4
+inst: 232431fe
+Unknown opcode: 7e
+inst: 834191fe
+PC:2b8
+inst: 834191fe
+Unknown opcode: 7e
+inst: b3813100
+PC:2bc
+inst: b3813100
+Unknown opcode: 0
+inst: 232491fe
+PC:2c0
+inst: 232491fe
+Unknown opcode: 7e
+inst: 342b1fe
+PC:2c4
+inst: 342b1fe
+Unknown opcode: 7e
+inst: 33024200
+PC:2c8
+inst: 33024200
+Unknown opcode: 0
+inst: 232441fe
+PC:2cc
+inst: 232441fe
+Unknown opcode: 7e
+inst: 34291fe
+PC:2d0
+inst: 34291fe
+Unknown opcode: 7e
+inst: b3814100
+PC:2d4
+inst: b3814100
+Unknown opcode: 0
+inst: b3813100
+PC:2d8
+inst: b3813100
+Unknown opcode: 0
+inst: 232a31fe
+PC:2dc
+inst: 232a31fe
+Unknown opcode: 7e
+inst: 232491fe
+PC:2e0
+inst: 232491fe
+Unknown opcode: 7e
+inst: 37320300
+PC:2e4
+inst: 37320300
+Unknown opcode: 0
+inst: 13020290
+PC:2e8
+inst: 13020290
+Unknown opcode: 10
+inst: 8341b1fe
+PC:2ec
+inst: 8341b1fe
+Unknown opcode: 7e
+inst: b3814100
+PC:2f0
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:2f4
+inst: 83c10100
+Unknown opcode: 0
+inst: a30331fe
+PC:2f8
+inst: a30331fe
+Unknown opcode: 7e
+inst: 8341a1fe
+PC:2fc
+inst: 8341a1fe
+Unknown opcode: 7e
+inst: b3814100
+PC:300
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:304
+inst: 83c10100
+Unknown opcode: 0
+inst: 230331fe
+PC:308
+inst: 230331fe
+Unknown opcode: 7e
+inst: 834191fe
+PC:30c
+inst: 834191fe
+Unknown opcode: 7e
+inst: b3814100
+PC:310
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:314
+inst: 83c10100
+Unknown opcode: 0
+inst: a30231fe
+PC:318
+inst: a30231fe
+Unknown opcode: 7e
+inst: 834181fe
+PC:31c
+inst: 834181fe
+Unknown opcode: 7e
+inst: b3814100
+PC:320
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:324
+inst: 83c10100
+Unknown opcode: 0
+inst: 230231fe
+PC:328
+inst: 230231fe
+Unknown opcode: 7e
+inst: 832141ff
+PC:32c
+inst: 832141ff
+Unknown opcode: 7f
+inst: 32241fe
+PC:330
+inst: 32241fe
+Unknown opcode: 7e
+inst: 33024400
+PC:334
+inst: 33024400
+Unknown opcode: 0
+inst: 13021200
+PC:338
+inst: 13021200
+Unknown opcode: 0
+inst: 232441fe
+PC:33c
+inst: 232441fe
+Unknown opcode: 7e
+inst: 342b1fe
+PC:340
+inst: 342b1fe
+Unknown opcode: 7e
+inst: 33024200
+PC:344
+inst: 33024200
+Unknown opcode: 0
+inst: 232441fe
+PC:348
+inst: 232441fe
+Unknown opcode: 7e
+inst: 34291fe
+PC:34c
+inst: 34291fe
+Unknown opcode: 7e
+inst: b3814100
+PC:350
+inst: b3814100
+Unknown opcode: 0
+inst: 37320000
+PC:354
+inst: 37320000
+Unknown opcode: 0
+inst: 13028290
+PC:358
+inst: 13028290
+Unknown opcode: 10
+inst: 33023200
+PC:35c
+inst: 33023200
+Unknown opcode: 0
+inst: 832481ff
+PC:360
+inst: 832481ff
+Unknown opcode: 7f
+inst: 324c1ff
+PC:364
+inst: 324c1ff
+Unknown opcode: 7f
+inst: 3420200
+PC:368
+inst: 3420200
+Unknown opcode: 0
+inst: 33024200
+PC:36c
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:370
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:374
+inst: 33024100
+Unknown opcode: 0
+inst: b7110000
+PC:378
+inst: b7110000
+Unknown opcode: 0
+inst: 93818186
+PC:37c
+inst: 93818186
+Unknown opcode: 6
+inst: 232831fe
+PC:380
+inst: 232831fe
+Unknown opcode: 7e
+inst: 93010039
+PC:384
+inst: 93010039
+Unknown opcode: 39
+inst: 232631fe
+PC:388
+inst: 232631fe
+Unknown opcode: 7e
+inst: 322c2fe
+PC:38c
+inst: 322c2fe
+Unknown opcode: 7e
+inst: 67000200
+PC:390
+inst: 67000200
+Unknown opcode: 0
+inst: 3278100
+PC:394
+inst: 3278100
+Unknown opcode: 0
+inst: 13050010
+PC:398
+inst: 13050010
+Unknown opcode: 10
+inst: 3387e700
+PC:39c
+inst: 3387e700
+Unknown opcode: 0
+inst: 232e81fe
+PC:3a0
+inst: 232e81fe
+Unknown opcode: 7e
+inst: 232c91fe
+PC:3a4
+inst: 232c91fe
+Unknown opcode: 7e
+inst: 2328e1fe
+PC:3a8
+inst: 2328e1fe
+Unknown opcode: 7e
+inst: 13040500
+PC:3ac
+inst: 13040500
+Unknown opcode: 0
+inst: 832401ff
+PC:3b0
+inst: 832401ff
+Unknown opcode: 7f
+inst: 232481fe
+PC:3b4
+inst: 232481fe
+Unknown opcode: 7e
+inst: 8341b1fe
+PC:3b8
+inst: 8341b1fe
+Unknown opcode: 7e
+inst: b3813100
+PC:3bc
+inst: b3813100
+Unknown opcode: 0
+inst: 232431fe
+PC:3c0
+inst: 232431fe
+Unknown opcode: 7e
+inst: 834191fe
+PC:3c4
+inst: 834191fe
+Unknown opcode: 7e
+inst: b3813100
+PC:3c8
+inst: b3813100
+Unknown opcode: 0
+inst: 232491fe
+PC:3cc
+inst: 232491fe
+Unknown opcode: 7e
+inst: 342b1fe
+PC:3d0
+inst: 342b1fe
+Unknown opcode: 7e
+inst: 33024200
+PC:3d4
+inst: 33024200
+Unknown opcode: 0
+inst: 232441fe
+PC:3d8
+inst: 232441fe
+Unknown opcode: 7e
+inst: 34291fe
+PC:3dc
+inst: 34291fe
+Unknown opcode: 7e
+inst: b3814100
+PC:3e0
+inst: b3814100
+Unknown opcode: 0
+inst: b3813100
+PC:3e4
+inst: b3813100
+Unknown opcode: 0
+inst: 232a31fe
+PC:3e8
+inst: 232a31fe
+Unknown opcode: 7e
+inst: 232491fe
+PC:3ec
+inst: 232491fe
+Unknown opcode: 7e
+inst: 37320300
+PC:3f0
+inst: 37320300
+Unknown opcode: 0
+inst: 13020290
+PC:3f4
+inst: 13020290
+Unknown opcode: 10
+inst: 8341b1fe
+PC:3f8
+inst: 8341b1fe
+Unknown opcode: 7e
+inst: b3814100
+PC:3fc
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:400
+inst: 83c10100
+Unknown opcode: 0
+inst: a30331fe
+PC:404
+inst: a30331fe
+Unknown opcode: 7e
+inst: 8341a1fe
+PC:408
+inst: 8341a1fe
+Unknown opcode: 7e
+inst: b3814100
+PC:40c
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:410
+inst: 83c10100
+Unknown opcode: 0
+inst: 230331fe
+PC:414
+inst: 230331fe
+Unknown opcode: 7e
+inst: 834191fe
+PC:418
+inst: 834191fe
+Unknown opcode: 7e
+inst: b3814100
+PC:41c
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:420
+inst: 83c10100
+Unknown opcode: 0
+inst: a30231fe
+PC:424
+inst: a30231fe
+Unknown opcode: 7e
+inst: 834181fe
+PC:428
+inst: 834181fe
+Unknown opcode: 7e
+inst: b3814100
+PC:42c
+inst: b3814100
+Unknown opcode: 0
+inst: 83c10100
+PC:430
+inst: 83c10100
+Unknown opcode: 0
+inst: 230231fe
+PC:434
+inst: 230231fe
+Unknown opcode: 7e
+inst: 832141ff
+PC:438
+inst: 832141ff
+Unknown opcode: 7f
+inst: 32241fe
+PC:43c
+inst: 32241fe
+Unknown opcode: 7e
+inst: 33024400
+PC:440
+inst: 33024400
+Unknown opcode: 0
+inst: 13021200
+PC:444
+inst: 13021200
+Unknown opcode: 0
+inst: 232441fe
+PC:448
+inst: 232441fe
+Unknown opcode: 7e
+inst: 342b1fe
+PC:44c
+inst: 342b1fe
+Unknown opcode: 7e
+inst: 33024200
+PC:450
+inst: 33024200
+Unknown opcode: 0
+inst: 232441fe
+PC:454
+inst: 232441fe
+Unknown opcode: 7e
+inst: 34291fe
+PC:458
+inst: 34291fe
+Unknown opcode: 7e
+inst: b3814100
+PC:45c
+inst: b3814100
+Unknown opcode: 0
+inst: 37320000
+PC:460
+inst: 37320000
+Unknown opcode: 0
+inst: 13028290
+PC:464
+inst: 13028290
+Unknown opcode: 10
+inst: 33023200
+PC:468
+inst: 33023200
+Unknown opcode: 0
+inst: 832481ff
+PC:46c
+inst: 832481ff
+Unknown opcode: 7f
+inst: 324c1ff
+PC:470
+inst: 324c1ff
+Unknown opcode: 7f
+inst: 3420200
+PC:474
+inst: 3420200
+Unknown opcode: 0
+inst: 33024200
+PC:478
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:47c
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:480
+inst: 33024100
+Unknown opcode: 0
+inst: b7110000
+PC:484
+inst: b7110000
+Unknown opcode: 0
+inst: 93818186
+PC:488
+inst: 93818186
+Unknown opcode: 6
+inst: 232831fe
+PC:48c
+inst: 232831fe
+Unknown opcode: 7e
+inst: 9301c049
+PC:490
+inst: 9301c049
+Unknown opcode: 49
+inst: 232631fe
+PC:494
+inst: 232631fe
+Unknown opcode: 7e
+inst: 322c2fe
+PC:498
+inst: 322c2fe
+Unknown opcode: 7e
+inst: 67000200
+PC:49c
+inst: 67000200
+Unknown opcode: 0
+inst: b387f700
+PC:4a0
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4a4
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4a8
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4ac
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4b0
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4b4
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4b8
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4bc
+inst: b387f700
+Unknown opcode: 0
+inst: b387d700
+PC:4c0
+inst: b387d700
+Unknown opcode: 0
+inst: b387f700
+PC:4c4
+inst: b387f700
+Unknown opcode: 0
+inst: b387f700
+PC:4c8
+inst: b387f700
+Unknown opcode: 0
+inst: 37040020
+PC:4cc
+inst: 37040020
+Unknown opcode: 20
+inst: 3304f400
+PC:4d0
+inst: 3304f400
+Unknown opcode: 0
+inst: 83278100
+PC:4d4
+inst: 83278100
+Unknown opcode: 0
+inst: 3306c600
+PC:4d8
+inst: 3306c600
+Unknown opcode: 0
+inst: 3306c600
+PC:4dc
+inst: 3306c600
+Unknown opcode: 0
+inst: 2324f1fe
+PC:4e0
+inst: 2324f1fe
+Unknown opcode: 7e
+inst: 8341b1fe
+PC:4e4
+inst: 8341b1fe
+Unknown opcode: 7e
+inst: b3813100
+PC:4e8
+inst: b3813100
+Unknown opcode: 0
+inst: 232431fe
+PC:4ec
+inst: 232431fe
+Unknown opcode: 7e
+inst: 834191fe
+PC:4f0
+inst: 834191fe
+Unknown opcode: 7e
+inst: 1382f7ff
+PC:4f4
+inst: 1382f7ff
+Unknown opcode: 7f
+inst: 232441fe
+PC:4f8
+inst: 232441fe
+Unknown opcode: 7e
+inst: 342b1fe
+PC:4fc
+inst: 342b1fe
+Unknown opcode: 7e
+inst: 33024200
+PC:500
+inst: 33024200
+Unknown opcode: 0
+inst: 232441fe
+PC:504
+inst: 232441fe
+Unknown opcode: 7e
+inst: 34291fe
+PC:508
+inst: 34291fe
+Unknown opcode: 7e
+inst: b3814100
+PC:50c
+inst: b3814100
+Unknown opcode: 0
+inst: 37320000
+PC:510
+inst: 37320000
+Unknown opcode: 0
+inst: 13028291
+PC:514
+inst: 13028291
+Unknown opcode: 11
+inst: 33824100
+PC:518
+inst: 33824100
+Unknown opcode: 0
+inst: 3420200
+PC:51c
+inst: 3420200
+Unknown opcode: 0
+inst: 33024200
+PC:520
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:524
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:528
+inst: 33024100
+Unknown opcode: 0
+inst: 93014065
+PC:52c
+inst: 93014065
+Unknown opcode: 65
+inst: 232831fe
+PC:530
+inst: 232831fe
+Unknown opcode: 7e
+inst: 93010054
+PC:534
+inst: 93010054
+Unknown opcode: 54
+inst: 232631fe
+PC:538
+inst: 232631fe
+Unknown opcode: 7e
+inst: 322c2fe
+PC:53c
+inst: 322c2fe
+Unknown opcode: 7e
+inst: 67000200
+PC:540
+inst: 67000200
+Unknown opcode: 0
+inst: 93040000
+PC:544
+inst: 93040000
+Unknown opcode: 0
+inst: 13050400
+PC:548
+inst: 13050400
+Unknown opcode: 0
+inst: 2322b100
+PC:54c
+inst: 2322b100
+Unknown opcode: 0
+inst: 2320c100
+PC:550
+inst: 2320c100
+Unknown opcode: 0
+inst: b7100000
+PC:554
+inst: b7100000
+Unknown opcode: 0
+inst: 938000de
+PC:558
+inst: 938000de
+Unknown opcode: 5e
+inst: e7800000
+PC:55c
+inst: e7800000
+Unknown opcode: 0
+inst: 3260100
+PC:560
+inst: 3260100
+Unknown opcode: 0
+inst: 83254100
+PC:564
+inst: 83254100
+Unknown opcode: 0
+inst: 83278100
+PC:568
+inst: 83278100
+Unknown opcode: 0
+inst: 93841400
+PC:56c
+inst: 93841400
+Unknown opcode: 0
+inst: 13040440
+PC:570
+inst: 13040440
+Unknown opcode: 40
+inst: b385c500
+PC:574
+inst: b385c500
+Unknown opcode: 0
+inst: 2328f1fe
+PC:578
+inst: 2328f1fe
+Unknown opcode: 7e
+inst: 232691fe
+PC:57c
+inst: 232691fe
+Unknown opcode: 7e
+inst: 232e81fe
+PC:580
+inst: 232e81fe
+Unknown opcode: 7e
+inst: 232c91fe
+PC:584
+inst: 232c91fe
+Unknown opcode: 7e
+inst: 37240000
+PC:588
+inst: 37240000
+Unknown opcode: 0
+inst: 13040470
+PC:58c
+inst: 13040470
+Unknown opcode: 70
+inst: 834101ff
+PC:590
+inst: 834101ff
+Unknown opcode: 7f
+inst: 33023400
+PC:594
+inst: 33023400
+Unknown opcode: 0
+inst: 93011000
+PC:598
+inst: 93011000
+Unknown opcode: 0
+inst: 23003200
+PC:59c
+inst: 23003200
+Unknown opcode: 0
+inst: 8341c1fe
+PC:5a0
+inst: 8341c1fe
+Unknown opcode: 7e
+inst: b3013400
+PC:5a4
+inst: b3013400
+Unknown opcode: 0
+inst: 23800100
+PC:5a8
+inst: 23800100
+Unknown opcode: 0
+inst: 83410200
+PC:5ac
+inst: 83410200
+Unknown opcode: 0
+inst: 834411ff
+PC:5b0
+inst: 834411ff
+Unknown opcode: 7f
+inst: 33029400
+PC:5b4
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:5b8
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:5bc
+inst: 23009200
+Unknown opcode: 0
+inst: 8344d1fe
+PC:5c0
+inst: 8344d1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:5c4
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:5c8
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:5cc
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:5d0
+inst: b3819100
+Unknown opcode: 0
+inst: 834421ff
+PC:5d4
+inst: 834421ff
+Unknown opcode: 7f
+inst: 33029400
+PC:5d8
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:5dc
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:5e0
+inst: 23009200
+Unknown opcode: 0
+inst: 8344e1fe
+PC:5e4
+inst: 8344e1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:5e8
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:5ec
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:5f0
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:5f4
+inst: b3819100
+Unknown opcode: 0
+inst: 834431ff
+PC:5f8
+inst: 834431ff
+Unknown opcode: 7f
+inst: 33029400
+PC:5fc
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:600
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:604
+inst: 23009200
+Unknown opcode: 0
+inst: 8344f1fe
+PC:608
+inst: 8344f1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:60c
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:610
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:614
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:618
+inst: b3819100
+Unknown opcode: 0
+inst: 37320000
+PC:61c
+inst: 37320000
+Unknown opcode: 0
+inst: 13020280
+PC:620
+inst: 13020280
+Unknown opcode: 0
+inst: 33023200
+PC:624
+inst: 33023200
+Unknown opcode: 0
+inst: 3420200
+PC:628
+inst: 3420200
+Unknown opcode: 0
+inst: 832481ff
+PC:62c
+inst: 832481ff
+Unknown opcode: 7f
+inst: 324c1ff
+PC:630
+inst: 324c1ff
+Unknown opcode: 7f
+inst: 33024200
+PC:634
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:638
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:63c
+inst: 33024100
+Unknown opcode: 0
+inst: 93014065
+PC:640
+inst: 93014065
+Unknown opcode: 65
+inst: 232831fe
+PC:644
+inst: 232831fe
+Unknown opcode: 7e
+inst: 93014054
+PC:648
+inst: 93014054
+Unknown opcode: 54
+inst: 232631fe
+PC:64c
+inst: 232631fe
+Unknown opcode: 7e
+inst: 322c2fe
+PC:650
+inst: 322c2fe
+Unknown opcode: 7e
+inst: 67000200
+PC:654
+inst: 67000200
+Unknown opcode: 0
+inst: 83204101
+PC:658
+inst: 83204101
+Unknown opcode: 1
+inst: 3240101
+PC:65c
+inst: 3240101
+Unknown opcode: 1
+inst: 8324c100
+PC:660
+inst: 8324c100
+Unknown opcode: 0
+inst: 13018101
+PC:664
+inst: 13018101
+Unknown opcode: 1
+inst: 67800000
+PC:668
+inst: 67800000
+Unknown opcode: 0
+inst: 13070010
+PC:66c
+inst: 13070010
+Unknown opcode: 10
+inst: 2328c1fe
+PC:670
+inst: 2328c1fe
+Unknown opcode: 7e
+inst: 2326e1fe
+PC:674
+inst: 2326e1fe
+Unknown opcode: 7e
+inst: 232e81fe
+PC:678
+inst: 232e81fe
+Unknown opcode: 7e
+inst: 232c91fe
+PC:67c
+inst: 232c91fe
+Unknown opcode: 7e
+inst: 37240000
+PC:680
+inst: 37240000
+Unknown opcode: 0
+inst: 13040470
+PC:684
+inst: 13040470
+Unknown opcode: 70
+inst: 834101ff
+PC:688
+inst: 834101ff
+Unknown opcode: 7f
+inst: 33023400
+PC:68c
+inst: 33023400
+Unknown opcode: 0
+inst: 93011000
+PC:690
+inst: 93011000
+Unknown opcode: 0
+inst: 23003200
+PC:694
+inst: 23003200
+Unknown opcode: 0
+inst: 8341c1fe
+PC:698
+inst: 8341c1fe
+Unknown opcode: 7e
+inst: b3013400
+PC:69c
+inst: b3013400
+Unknown opcode: 0
+inst: 23800100
+PC:6a0
+inst: 23800100
+Unknown opcode: 0
+inst: 83410200
+PC:6a4
+inst: 83410200
+Unknown opcode: 0
+inst: 834411ff
+PC:6a8
+inst: 834411ff
+Unknown opcode: 7f
+inst: 33029400
+PC:6ac
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:6b0
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:6b4
+inst: 23009200
+Unknown opcode: 0
+inst: 8344d1fe
+PC:6b8
+inst: 8344d1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:6bc
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:6c0
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:6c4
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:6c8
+inst: b3819100
+Unknown opcode: 0
+inst: 834421ff
+PC:6cc
+inst: 834421ff
+Unknown opcode: 7f
+inst: 33029400
+PC:6d0
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:6d4
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:6d8
+inst: 23009200
+Unknown opcode: 0
+inst: 8344e1fe
+PC:6dc
+inst: 8344e1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:6e0
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:6e4
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:6e8
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:6ec
+inst: b3819100
+Unknown opcode: 0
+inst: 834431ff
+PC:6f0
+inst: 834431ff
+Unknown opcode: 7f
+inst: 33029400
+PC:6f4
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:6f8
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:6fc
+inst: 23009200
+Unknown opcode: 0
+inst: 8344f1fe
+PC:700
+inst: 8344f1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:704
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:708
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:70c
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:710
+inst: b3819100
+Unknown opcode: 0
+inst: 37320000
+PC:714
+inst: 37320000
+Unknown opcode: 0
+inst: 13020280
+PC:718
+inst: 13020280
+Unknown opcode: 0
+inst: 33023200
+PC:71c
+inst: 33023200
+Unknown opcode: 0
+inst: 3420200
+PC:720
+inst: 3420200
+Unknown opcode: 0
+inst: 832481ff
+PC:724
+inst: 832481ff
+Unknown opcode: 7f
+inst: 324c1ff
+PC:728
+inst: 324c1ff
+Unknown opcode: 7f
+inst: 33024200
+PC:72c
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:730
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:734
+inst: 33024100
+Unknown opcode: 0
+inst: 9301c074
+PC:738
+inst: 9301c074
+Unknown opcode: 74
+inst: 232831fe
+PC:73c
+inst: 232831fe
+Unknown opcode: 7e
+inst: 93018028
+PC:740
+inst: 93018028
+Unknown opcode: 28
+inst: 232631fe
+PC:744
+inst: 232631fe
+Unknown opcode: 7e
+inst: 322c2fe
+PC:748
+inst: 322c2fe
+Unknown opcode: 7e
+inst: 67000200
+PC:74c
+inst: 67000200
+Unknown opcode: 0
+inst: 3278100
+PC:750
+inst: 3278100
+Unknown opcode: 0
+inst: 2328e1fe
+PC:754
+inst: 2328e1fe
+Unknown opcode: 7e
+inst: 2326c1fe
+PC:758
+inst: 2326c1fe
+Unknown opcode: 7e
+inst: 232e81fe
+PC:75c
+inst: 232e81fe
+Unknown opcode: 7e
+inst: 232c91fe
+PC:760
+inst: 232c91fe
+Unknown opcode: 7e
+inst: 37240000
+PC:764
+inst: 37240000
+Unknown opcode: 0
+inst: 13040470
+PC:768
+inst: 13040470
+Unknown opcode: 70
+inst: 834101ff
+PC:76c
+inst: 834101ff
+Unknown opcode: 7f
+inst: 33023400
+PC:770
+inst: 33023400
+Unknown opcode: 0
+inst: 93011000
+PC:774
+inst: 93011000
+Unknown opcode: 0
+inst: 23003200
+PC:778
+inst: 23003200
+Unknown opcode: 0
+inst: 8341c1fe
+PC:77c
+inst: 8341c1fe
+Unknown opcode: 7e
+inst: b3013400
+PC:780
+inst: b3013400
+Unknown opcode: 0
+inst: 23800100
+PC:784
+inst: 23800100
+Unknown opcode: 0
+inst: 83410200
+PC:788
+inst: 83410200
+Unknown opcode: 0
+inst: 834411ff
+PC:78c
+inst: 834411ff
+Unknown opcode: 7f
+inst: 33029400
+PC:790
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:794
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:798
+inst: 23009200
+Unknown opcode: 0
+inst: 8344d1fe
+PC:79c
+inst: 8344d1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:7a0
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:7a4
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:7a8
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:7ac
+inst: b3819100
+Unknown opcode: 0
+inst: 834421ff
+PC:7b0
+inst: 834421ff
+Unknown opcode: 7f
+inst: 33029400
+PC:7b4
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:7b8
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:7bc
+inst: 23009200
+Unknown opcode: 0
+inst: 8344e1fe
+PC:7c0
+inst: 8344e1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:7c4
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:7c8
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:7cc
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:7d0
+inst: b3819100
+Unknown opcode: 0
+inst: 834431ff
+PC:7d4
+inst: 834431ff
+Unknown opcode: 7f
+inst: 33029400
+PC:7d8
+inst: 33029400
+Unknown opcode: 0
+inst: 93041000
+PC:7dc
+inst: 93041000
+Unknown opcode: 0
+inst: 23009200
+PC:7e0
+inst: 23009200
+Unknown opcode: 0
+inst: 8344f1fe
+PC:7e4
+inst: 8344f1fe
+Unknown opcode: 7e
+inst: b3049400
+PC:7e8
+inst: b3049400
+Unknown opcode: 0
+inst: 23800400
+PC:7ec
+inst: 23800400
+Unknown opcode: 0
+inst: 83440200
+PC:7f0
+inst: 83440200
+Unknown opcode: 0
+inst: b3819100
+PC:7f4
+inst: b3819100
+Unknown opcode: 0
+inst: 37320000
+PC:7f8
+inst: 37320000
+Unknown opcode: 0
+inst: 13020280
+PC:7fc
+inst: 13020280
+Unknown opcode: 0
+inst: 33023200
+PC:800
+inst: 33023200
+Unknown opcode: 0
+inst: 3420200
+PC:804
+inst: 3420200
+Unknown opcode: 0
+inst: 832481ff
+PC:808
+inst: 832481ff
+Unknown opcode: 7f
+inst: 324c1ff
+PC:80c
+inst: 324c1ff
+Unknown opcode: 7f
+inst: 33024200
+PC:810
+inst: 33024200
+Unknown opcode: 0
+inst: 33024200
+PC:814
+inst: 33024200
+Unknown opcode: 0
+inst: 33024100
+PC:818
+inst: 33024100
+Unknown opcode: 0
+inst: b7110000
+PC:81c
+inst: b7110000
+Unknown opcode: 0
+inst: 93814183
+PC:820
+inst: 93814183
