@@ -65,7 +65,7 @@ int32_t mem_read_my_E4(Memory_my_E4 *mem, uint32_t addr, int32_t size) {
     //     fprintf(stderr, "Memory read out of bounds: addr=0x%08x, size=%zu\n", addr, size);
     //     return 0;
     // }
-    printf("addr: %0x \n" ,addr);
+    // printf("addr: %0x \n" ,addr);
     if (addr + size > MEM_SIZE) {
         printf("ERROR: Memory write out of bounds: addr=0x%08x, size=%d\n", addr, size);
         return -1;
@@ -83,7 +83,7 @@ int32_t mem_write_my_E4(Memory_my_E4 *mem, uint32_t addr, int32_t size, int32_t 
     //     fprintf(stderr, "Memory write out of bounds: addr=0x%08x, size=%zu\n", addr, size);
     //     return -1;
     // }
-    printf("addr: %0x \n" ,addr);
+    // printf("addr: %0x \n" ,addr);
     if (addr + size > MEM_SIZE) {
         printf("ERROR: Memory write out of bounds: addr=0x%08x, size=%d\n", addr, size);
         return -1;

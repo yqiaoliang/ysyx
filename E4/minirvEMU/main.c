@@ -25,7 +25,7 @@ int main (int argc, char * argv[]){
     printf("test3 \n");
 
     // char *bin_path = argv[1];
-    char *bin_path = "../logisim-bin/vga.hex";
+    char *bin_path = "../logisim-bin/mem.hex";
     printf("test4\n");
     char command[512];
     sprintf(command, 
@@ -41,12 +41,12 @@ int main (int argc, char * argv[]){
     printf("load success %d bytes to rom\n", loaded);
 
     for (int i = 0; i < 6000; i++){
-        printf("cycle %d \n", i);
-        printf("pc: %0x \n", cpu->pc);
+        printf("runtime %d \n", i);
+        printf("pc: 0x%0x \n", cpu->pc);
         inst_cycle_my_E4(cpu, mem, inst, color);
-        printf("inst: %0x \n", inst->raw);
-        printf("opcode: %0x \n", inst->opcode);
-        printf("rd: %0d \n", inst->rd);
+        printf("inst: 0x%0x \n", inst->raw);
+        // printf("opcode: %0x \n", inst->opcode);
+        // printf("rd: %0d \n", inst->rd);
         // printf("\n");
 
         // if( strcmp(bin_path, "../logisim-bin/vga.hex") == 0 ){
@@ -59,22 +59,22 @@ int main (int argc, char * argv[]){
         // }
     
 
-        printf("0 zero: %0x \n", cpu->GPR[0]);
-        printf("1 ra: %0x \n", cpu->GPR[1]);
-        printf("2 sp: %0x \n", cpu->GPR[2]);
-        printf("3 gp: %0x \n", cpu->GPR[3]);
-        printf("4 tp: %0x \n", cpu->GPR[4]);
-        printf("5 t0: %0x \n", cpu->GPR[5]);
-        printf("6 t1: %0x \n", cpu->GPR[6]);
-        printf("7 t2: %0x \n", cpu->GPR[7]);
-        printf("8 s0/fp: %0x \n", cpu->GPR[8]);
-        printf("9 s1: %0x \n", cpu->GPR[9]);
-        printf("10 a0: %0x \n", cpu->GPR[10]);
-        printf("11 a1: %0x \n", cpu->GPR[11]);
-        printf("12 a2: %0x \n", cpu->GPR[12]);
-        printf("13 a3: %0x \n", cpu->GPR[13]);
-        printf("14 s4: %0x \n", cpu->GPR[14]);
-        printf("15 a5: %0x \n", cpu->GPR[15]);
+        printf("0 zero: 0x%0x \n", cpu->GPR[0]);
+        printf("1 ra: 0x%0x \n", cpu->GPR[1]);
+        printf("2 sp: 0x%0x \n", cpu->GPR[2]);
+        printf("3 gp: 0x%0x \n", cpu->GPR[3]);
+        printf("4 tp: 0x%0x \n", cpu->GPR[4]);
+        printf("5 t0: 0x%0x \n", cpu->GPR[5]);
+        printf("6 t1: 0x%0x \n", cpu->GPR[6]);
+        printf("7 t2: 0x%0x \n", cpu->GPR[7]);
+        printf("8 s0/fp: 0x%0x \n", cpu->GPR[8]);
+        printf("9 s1: 0x%0x \n", cpu->GPR[9]);
+        printf("10 a0: 0x%0x \n", cpu->GPR[10]);
+        printf("11 a1: 0x%0x \n", cpu->GPR[11]);
+        printf("12 a2: 0x%0x \n", cpu->GPR[12]);
+        printf("13 a3: 0x%0x \n", cpu->GPR[13]);
+        printf("14 a4: 0x%0x \n", cpu->GPR[14]);
+        printf("15 a5: 0x%0x \n", cpu->GPR[15]);
         printf("\n");
     }
 
