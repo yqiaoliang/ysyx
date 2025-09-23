@@ -1,8 +1,7 @@
 #include "sCPU.h"
 
-int runtime = 0;
 
-void printf_gpr_files(VsCPU * sCPU) {
+void printf_gpr_files_(VsCPU * sCPU) {
     printf("runtime %d \n", runtime);
     printf("pc: 0x%0x\n", sCPU->pc_o);
     printf("inst: 0x%0x\n", sCPU->out_inst);

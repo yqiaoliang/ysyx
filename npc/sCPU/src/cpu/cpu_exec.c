@@ -1,6 +1,12 @@
 #include "cpu_exec.h"
+#include "../verilator/verilator.h"
+#include "../difftest/difftest.h"
 
-#define MAX_RUNTIME 10000
+#define MAX_RUNTIME 1000000
+
+VsCPU * sCPU;
+int process_end;
+int runtime = 0;
 
 void exec_once();
 
@@ -21,7 +27,14 @@ void exec_once() {
         process_end = 1;
         return;
     }
-    printf("pc: 0x%08x\n", sCPU->pc_o);
+    
+    // printf("start\n");
     step_and_dump_wave();
+    difftest_step();
+    // printf("finish\n");
+    if (sCPU->unknow_inst) {
+        printf("unknow_inst at pc, inst: %0x: 0x%0x \n", sCPU->pc_o, sCPU->out_inst);
+        process_end = 1;
+    }
     runtime++;
 }

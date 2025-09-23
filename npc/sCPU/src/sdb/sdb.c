@@ -1,4 +1,4 @@
-#include "../sCPU.h"
+#include "../cpu/cpu_exec.h"
 
 #include <readline/readline.h>
 #include <readline/history.h>
@@ -6,6 +6,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+static int is_batch_mode = 0;
 
 static char* rl_gets() {
   static char *line_read = NULL;
@@ -86,15 +88,17 @@ static struct {
 #define NR_CMD 4
 
 
-
+void run_batch_mode(){
+  is_batch_mode = 1;
+}
 
 
 
 void sdb_mainloop() {
-//   if (is_batch_mode) {
-//     cmd_c("batch_mode");
-//     return;
-//   }
+  if (is_batch_mode) {
+    cmd_c((char *)"batch_mode");
+    return;
+  }
 
   for (char *str; (str = rl_gets()) != NULL; ) {
     char *str_end = str + strlen(str);

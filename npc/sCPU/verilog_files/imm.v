@@ -14,7 +14,7 @@ module imm(
             R_type : imm = 0;
             I_type : imm = {{20{inst[31]}}, inst[31:20]};
             S_type : imm = {{20{inst[31]}}, inst[31:25], inst[11:7]};
-            B_type: imm = {{20{inst[31]}}, inst[7], inst[30:25], inst[11:8], 1'b0};
+            B_type : imm = {{20{inst[31]}}, inst[7], inst[30:25], inst[11:8], 1'b0};
             U_type : imm = {inst[31:12], 12'b0};
             J_type : imm = {{11{inst[31]}}, inst[31], inst[19:12], inst[20], inst[30:21], 1'b0};
         endcase

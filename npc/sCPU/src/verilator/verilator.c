@@ -1,6 +1,9 @@
 #include "verilator.h"
-#include "../cpu_exec/cpu_exec.h"
+#include "../cpu/cpu_exec.h"
 
+
+VerilatedContext* contextp;
+VerilatedVcdC* tfp;
 
 void nvboard_bind_all_pins(VsCPU* sCPU);
 
@@ -27,7 +30,7 @@ void sim_init(){
     sCPU = new VsCPU;
     contextp->traceEverOn(true);
     sCPU->trace(tfp, 0);
-    tfp->open("dump.vcd");
+    tfp->open("/home/yqiaoliang/Desktop/digital/ysyx/npc/sCPU/dump.vcd");
 }
 
 void sim_exit(){

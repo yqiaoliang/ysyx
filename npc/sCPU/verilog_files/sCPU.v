@@ -4,7 +4,9 @@ module sCPU(
     /* verilator lint_off UNUSEDSIGNAL */
     input [31:0] inst_CXX,
     /* verilator lint_on UNUSEDSIGNAL */
+    output reg unknow_inst,
     output [31:0] pc_o,
+    output [31:0] next_pc_o,
     output [31:0] out_inst,
     output reg [31:0] gpr_files[31:0]
 );
@@ -42,13 +44,16 @@ module sCPU(
 
     /* verilator lint_off UNUSEDSIGNAL */
     wire alu_is_zero;
+    wire [1:0] alu_cmp;
+    wire alu_is_carry_out;
     wire alu_is_overflow;
     /* verilator lint_on UNUSEDSIGNAL */
     wire [31:0] alu_input_A;    
     wire [31:0] alu_input_B; 
-    wire [2:0] alu_op;
+    wire [3:0] alu_op;
 
     assign pc_o = pc;
+    assign next_pc_o = next_pc;
     assign out_inst = inst_sCPU;
     
 
@@ -108,11 +113,14 @@ module sCPU(
     );
 
     alu ALU_CPU(
+        .clk(clk),
         .alu_input_A(alu_input_A),
         .alu_input_B(alu_input_B),
         .alu_op (alu_op),
         .alu_data(alu_data),
         .is_zero(alu_is_zero),
+        .cmp(alu_cmp),
+        .is_carry_out(alu_is_carry_out),
         .is_overflow(alu_is_overflow)
     );
 
@@ -128,6 +136,9 @@ module sCPU(
         .rs2_data(rs2_data),
         .ram_r_data(ram_r_data),
         .GPR_10(gpr_files[10]),
+        .alu_is_carry_out(alu_is_carry_out),
+        .alu_cmp(alu_cmp),
+        .unknow_inst(unknow_inst),
         .is_jar(is_jar),
         .inst_type(inst_type),
         .gpr_w_en(gpr_w_en),

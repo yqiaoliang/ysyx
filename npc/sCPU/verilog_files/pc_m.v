@@ -9,7 +9,7 @@ module pc_m(
 
     always @(negedge clk or posedge rst) begin
         if (rst) begin
-            next_pc <= 32'h7ffffffc;
+            next_pc <= 32'h80000000;
             // next_pc <= 32'hfffffffc;
         end
 
@@ -21,7 +21,7 @@ module pc_m(
 
     always @(posedge clk or posedge rst) begin
         if (rst) begin
-            current_pc <= 32'h7ffffffc;
+            current_pc <= 32'h80000000;
             // current_pc <= 32'hfffffffc;
         end
         else begin

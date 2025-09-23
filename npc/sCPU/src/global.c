@@ -1,6 +1,6 @@
-#include "sCPU.h"
-#include "cpu/cpu_exec/h"
-#include "memory/mem.h"
+// #include "sCPU.h"
+// #include "cpu/cpu_exec/h"
+// #include "memory/mem.h"
 
 
 
@@ -8,4 +8,4 @@
 
 
 
-int process_end;
+// int process_end;

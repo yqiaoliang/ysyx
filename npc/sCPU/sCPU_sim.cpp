@@ -1,11 +1,13 @@
 #include "./src/sCPU.h"
 
+
 int main(int argc, char * argv[]){
 
     sim_init();
     nvboard_init();
     // nvboard_bind_all_pins(sCPU);
     process_end = 0;
+    // printf("argv2: %s\n", argv[2]);
 
 
     sCPU->rst = 1;
@@ -23,17 +25,28 @@ int main(int argc, char * argv[]){
     // system(command);
 
 
-    int loaded = load_bin_to_ram_ex(argv[1], RAM, MEM_LEN, 1);
+    img_size = load_bin_to_ram_ex(argv[1], RAM, MEM_LEN, 1);
+    ref_so_file = argv[2];
+    init_difftest(ref_so_file, img_size, 1234);
 
+    if (argc == 4 && strcmp(argv[3], "run-batch") == 0) run_batch_mode();
+    
 
     sCPU->rst = 0; 
     sdb_mainloop();
 
     sim_exit();
     nvboard_quit();
+    printf("runtime %d\n", runtime);
     if (process_end == 1) {
-        if (sCPU->gpr_files[10] == 0) printf("GOOD END\n");
-        else printf("BAD END\n");
+        if (sCPU->gpr_files[10] == 0) {
+            printf("GOOD END\n");
+            return 0;
+        }
+        else {
+            printf("BAD END\n");
+            return 1;
+        }
     }
 
     

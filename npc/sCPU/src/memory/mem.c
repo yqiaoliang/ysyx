@@ -1,4 +1,18 @@
+
+
 #include "mem.h"
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h> 
+#include <stdint.h>
+
+
+
+
+uint8_t RAM[MEM_LEN] = {};
+int img_size;
+
 
 int load_bin_to_ram_ex(const char* bin_path, uint8_t* ram, size_t ram_max_len, int little_endian) {
     FILE* bin_file = fopen(bin_path, "rb");
@@ -48,7 +62,7 @@ int load_bin_to_ram_ex(const char* bin_path, uint8_t* ram, size_t ram_max_len, i
         fprintf(stderr, "Warning: .bin file may be larger than RAM, data truncated!\n");
     }
 
-    return 0;
+    return read_bytes;
 }
 
 
@@ -68,6 +82,8 @@ extern "C" int pmem_read(int raddr, uint8_t len) {
         case 2 : return RAM[raddr] | RAM[raddr+1] << 8; break;
         case 4 : return RAM[raddr] | RAM[raddr+1] << 8 | RAM[raddr+2] << 16 | RAM[raddr+3] << 24; break;
     }
+
+    return 0;
 }
 
 extern "C" void pmem_write(int waddr, int wdata, uint8_t len) {

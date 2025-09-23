@@ -6,11 +6,13 @@
 #include "verilated_vcd_c.h" 
 #include <random>
 
-#include "cpu/cpu_exec.h"
+// #include "cpu/cpu_exec.h"
 #include "memory/mem.h"
+#include "verilator/verilator.h"
+#include "difftest/difftest.h"
 
 
-
+// extern char * ref_so_file
 extern VerilatedContext* contextp;
 extern VerilatedVcdC* tfp;
 
@@ -21,9 +23,9 @@ extern int process_end;
 extern int runtime;
 
 
-// typedef void (*difftest_memcpy_t)(paddr_t, void*, size_t, bool);
-// typedef void (*difftest_regcpy_t)(void*, bool);
-// typedef void (*difftest_exec_t)(uint64_t);
+extern int img_size;
+
+
 
 
 extern "C" void nemu_trap(int ret);
@@ -42,3 +44,4 @@ void printf_gpr_files(VsCPU * sCPU);
 
 
 void sdb_mainloop();
+void run_batch_mode();
