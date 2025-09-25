@@ -478,7 +478,6 @@ module control (
                 end
 
             
-
                 default: begin
                    set_default;
                 end

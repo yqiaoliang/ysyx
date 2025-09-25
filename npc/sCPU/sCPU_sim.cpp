@@ -5,6 +5,8 @@ int main(int argc, char * argv[]){
 
     sim_init();
     nvboard_init();
+    init_map();
+    init_timer();
     // nvboard_bind_all_pins(sCPU);
     process_end = 0;
     // printf("argv2: %s\n", argv[2]);

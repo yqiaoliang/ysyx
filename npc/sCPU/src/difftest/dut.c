@@ -88,6 +88,7 @@ void difftest_step(){
 
 
 bool checkregs(DUT_CPU_state *ref_r, uint32_t pc) {
+  printf_gpr_files(sCPU);
   if (ref_r->pc != sCPU->next_pc_o) {
     printf("current pc: 0x%0x \n", sCPU->pc_o);
     printf("ERROR ref pc: 0x%0x, sCPU pc: 0x%0x\n", ref_r->pc, sCPU->next_pc_o);

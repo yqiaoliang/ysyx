@@ -13,6 +13,8 @@
 uint8_t RAM[MEM_LEN] = {};
 int img_size;
 
+uint8_t* guest_to_host(uint32_t paddr) {return RAM + paddr - MEM_BASE;}
+
 
 int load_bin_to_ram_ex(const char* bin_path, uint8_t* ram, size_t ram_max_len, int little_endian) {
     FILE* bin_file = fopen(bin_path, "rb");
@@ -68,30 +70,29 @@ int load_bin_to_ram_ex(const char* bin_path, uint8_t* ram, size_t ram_max_len, i
 
 extern "C" int pmem_read(int raddr, uint8_t len) {
     // int read_byte = len - '0';
-    raddr -= MEM_BASE;
+    // raddr -= MEM_BASE;
     // printf("len %d \n", len);
-    // printf("raddr %d\n", raddr);
+    // printf("raddr %0x\n", raddr);
     // printf("%d\n", (raddr + len >= MEM_LEN));
-
-    if(((uint64_t)raddr + len >= MEM_LEN) || (raddr < 0)) {
-        // printf("mem out of bound, addr: 0x%0x\n", raddr);
-        return 0;
-    }
-    switch (len) {
-        case 1 : return RAM[raddr]; break;
-        case 2 : return RAM[raddr] | RAM[raddr+1] << 8; break;
-        case 4 : return RAM[raddr] | RAM[raddr+1] << 8 | RAM[raddr+2] << 16 | RAM[raddr+3] << 24; break;
+    if(((uint32_t)raddr - MEM_BASE + len >= MEM_LEN) || ((uint32_t)raddr < 0)) { 
+        return mmio_read(raddr,len);
+        // else return 0;
     }
 
-    return 0;
+
+    return  host_read(guest_to_host(raddr), len);
+
 }
 
 extern "C" void pmem_write(int waddr, int wdata, uint8_t len) {
     // int write_len = len - '0';
-    waddr -= MEM_BASE;
-    if((waddr + len >= MEM_LEN) || (waddr < 0)) {
-        return ;
+    // waddr -= MEM_BASE;
+    if(((uint32_t)waddr - MEM_BASE + len >= MEM_LEN) || ((uint32_t)waddr < 0)) {
+        mmio_write(waddr, len, wdata);
+        return;
     }
+    waddr -= MEM_BASE;
+    // host_write(guest_to_host(waddr), wdata, len);
     switch (len) {
         case 1 : RAM[waddr] = (uint8_t)wdata; break;
         case 2 : RAM[waddr+1] = (uint8_t)(wdata >> 8); RAM[waddr] = (uint8_t)wdata; break;

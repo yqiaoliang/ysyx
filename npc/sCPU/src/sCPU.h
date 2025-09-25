@@ -45,3 +45,5 @@ void printf_gpr_files(VsCPU * sCPU);
 
 void sdb_mainloop();
 void run_batch_mode();
+void init_map();
+void init_timer();
