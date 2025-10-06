@@ -350,9 +350,25 @@ module control (
                 end
 
                 7'h73 : begin
-                    // nemu_trap();
+// INSTPAT("??????? ????? ????? 001 ????? 11100 11", csrrw  , I, word_t *csr_ptr = csr_read(imm); R(rd) = *csr_ptr; *csr_ptr = src1);
+// INSTPAT("??????? ????? ????? 010 ????? 11100 11", csrrs  , I, word_t *csr_ptr = csr_read(imm); R(rd) = *csr_ptr; *csr_ptr |= src1;);
+// INSTPAT("0011000 00010 00000 000 00000 11100 11", mret   , N, s->dnpc = *csr_read(MEPC));
+                    // if (funct3 == 001) begin
+                    //     is_jar = 0;
+                    //     inst_type = R_type;
+                    //     gpr_w_en = 1;
+                    //     gpr_w_data = alu_data;
+                    //     ram_w_en = 0;
+                    //     ram_rw_byte = 0;
+                    //     ram_addr = 0;
+                    //     ram_w_data = 0;
+                    //     alu_op = 
+                    //     alu_input_A = rs1_data;
+                    //     alu_input_B = rs2_data;
+                    //     unknow_inst = 0;
+                    // end
                     set_default;
-                    unknow_inst = 0;
+                    
                 end
 
                 7'h17 : begin

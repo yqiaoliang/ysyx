@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stddef.h> 
 #include <stdint.h>
+#include <sys/time.h>
 
 
 
@@ -13,7 +14,23 @@
 uint8_t RAM[MEM_LEN] = {};
 int img_size;
 
+static int boot_time = 0;
 uint8_t* guest_to_host(uint32_t paddr) {return RAM + paddr - MEM_BASE;}
+
+
+static uint64_t get_time_internal() {
+  struct timeval now;
+  gettimeofday(&now, NULL);
+  uint64_t us = now.tv_sec * 1000000 + now.tv_usec;
+  return us;
+}
+
+uint64_t get_time() {
+  if (boot_time == 0) boot_time = get_time_internal();
+  uint64_t now = get_time_internal();
+  return now - boot_time;
+}
+
 
 
 int load_bin_to_ram_ex(const char* bin_path, uint8_t* ram, size_t ram_max_len, int little_endian) {
@@ -75,7 +92,10 @@ extern "C" int pmem_read(int raddr, uint8_t len) {
     // printf("raddr %0x\n", raddr);
     // printf("%d\n", (raddr + len >= MEM_LEN));
     if(((uint32_t)raddr - MEM_BASE + len >= MEM_LEN) || ((uint32_t)raddr < 0)) { 
-        return mmio_read(raddr,len);
+        if (raddr == 0xa00003f8) return get_time();
+
+        return 0;
+        // return mmio_read(raddr,len);
         // else return 0;
     }
 
@@ -88,7 +108,15 @@ extern "C" void pmem_write(int waddr, int wdata, uint8_t len) {
     // int write_len = len - '0';
     // waddr -= MEM_BASE;
     if(((uint32_t)waddr - MEM_BASE + len >= MEM_LEN) || ((uint32_t)waddr < 0)) {
-        mmio_write(waddr, len, wdata);
+        // mmio_write(waddr, len, wdata);
+        if (wdata < MEM_LEN && (waddr >= 0)) {
+            switch (len) {
+                case 1 : putchar((uint8_t) wdata);
+                case 2 : putchar((uint16_t) wdata);
+                case 4 : putchar((uint32_t) wdata);
+            }
+        }
+        
         return;
     }
     waddr -= MEM_BASE;

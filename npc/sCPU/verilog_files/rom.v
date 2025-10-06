@@ -17,7 +17,7 @@ module rom(
         // inst[23:16] = ROM[addr+2];
         // inst[31:24] = ROM[addr+3];
         inst = pmem_read(addr, 4);
-        if (inst[6:0] == 7'h73) nemu_trap();
+        if (inst == 32'h00100073) nemu_trap();
     end
 
 endmodule

@@ -11,11 +11,11 @@ module alu(
 );
 
     // 监控语句应该放在always块外部
-    // initial begin
-    //     // 将所有需要监控的信号放在同一个$monitor中
-    //     $monitor("Time: %t, alu_op: %h, input_A: %h, input_B: %h, alu_data: %h", 
-    //             $time, alu_op, alu_input_A, alu_input_B, alu_data);
-    // end
+    initial begin
+        // 将所有需要监控的信号放在同一个$monitor中
+        $monitor("Time: %t, alu_op: %h, input_A: %h, input_B: %h, alu_data: %h", 
+                $time, alu_op, alu_input_A, alu_input_B, alu_data);
+    end
 
     parameter ADD = 0, SUB = 1, MUL = 2, DIV = 3, AND = 4, OR = 5, XOR = 6, SLL = 7, SRL = 8, SRA = 9, CMP = 10;
     parameter EQU = 0, SMALLER = 1, BIGGER = 2;
